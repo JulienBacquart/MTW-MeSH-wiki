@@ -1,4 +1,4 @@
-# Web server config examples #
+# Examples #
  
 ## Caddy Server ##
 
