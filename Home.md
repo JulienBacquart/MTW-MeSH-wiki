@@ -50,7 +50,7 @@ The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena/Fuseki requires Java 8 JRE
 
-1. Follow [installation steps](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (Windows, \#TBD: Linux) 
+1. Follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (\#TBD: Linux) 
 
 2. [Load MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
 
