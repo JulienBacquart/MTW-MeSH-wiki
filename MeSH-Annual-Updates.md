@@ -1,4 +1,6 @@
-1. Export the annual datasets - ie. UMLS TSV, MARC etc.
+> You can update more often if required - just repeat the steps.
+
+1. Export required datasets from MTW - ie. UMLS TSV, MARC etc.
 
 2. Backup your <**mesh**> dataset using Fuseki interface
 
