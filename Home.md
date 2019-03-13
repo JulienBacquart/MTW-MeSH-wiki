@@ -14,6 +14,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * no proprietary software
 * no heavy hardware (it runs even on a PC)
 * cross-platform portability (though I develop on Windows)
+* easy datasets loading and updates
 * light but scalable workflow
 * clean and intuitive interface 
 
@@ -21,7 +22,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 
 * RDF can contain complex structures without tables/schemas
 * ability to extend MeSH data models
-* easy handling of MeSH data updates
+* eficient handling of MeSH data updates
 * usage of custom prefixes for the translations 
 
 ## Notable MTW features
