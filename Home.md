@@ -36,7 +36,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * reporting & user management
 * duplicate terms checks
 * custom concepts support
-* exports to: UMLS TSV, JSON, XML, MARC21
+* exports to UMLS TSV, JSON, XML, MARC21
 
 ## MTW Stack
 
