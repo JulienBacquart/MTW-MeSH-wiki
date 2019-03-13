@@ -68,6 +68,6 @@ The development of MTW has been possible thanks to other open source projects:
 * ALWAYS use HTTPS
 * Do not forget to backup regularly
 
-# Support & Development
+# Support
 
 Please use the [Issues](https://github.com/filak/MTW-MeSH/issues).
