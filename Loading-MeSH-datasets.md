@@ -1,5 +1,3 @@
-# into Apache Jena #
-
 ## Loading data from a backup ##
 
     tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
