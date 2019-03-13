@@ -44,6 +44,7 @@ The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena & Apache Jena Fuseki
 * Python & Flask
+* Bootstrap & Bootswatch
 * SQLite
 
 # Getting started
