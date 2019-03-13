@@ -1,5 +1,3 @@
-# Welcome
-
 *Medical Subject Headings* (MeSH) is a biomedical vocabulary produced by the *National Library of Medicine* ([NLM], Bethesda, USA)
 [NLM]:  https://www.nlm.nih.gov/mesh/ 
 
@@ -52,11 +50,11 @@ The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena/Fuseki requires Java 8 JRE
 
-1. Follow [installation steps](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Installation-Windows) (Windows, \#TBD: Linux) 
+1. Follow [installation steps](https://github.com/filak/MTW-MeSH/wiki/Installation-Windows) (Windows, \#TBD: Linux) 
 
-2. [Load MeSH datasets](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Loading-MeSH-datasets)
+2. [Load MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
 
-3. [Run Fuseki server](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Running-Fuseki-server)
+3. [Run Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
 4. Enjoy MTW http://localhost:55930/mtw
 
@@ -64,13 +62,13 @@ The development of MTW has been possible thanks to other open source projects:
 
 * MTW manual \#TBD... 
 
-* [Annual MeSH updates](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/MeSH-Annual-Updates)
+* [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
 
 * Backups \#TBD...
 
 # Deployment
 
-* ALWAYS run the web-app behind a reverse proxy - see [web server config examples](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Web-server-config)
+* ALWAYS run the web-app behind a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 * ALWAYS use HTTPS
 * Do not forget to backup regularly
 
