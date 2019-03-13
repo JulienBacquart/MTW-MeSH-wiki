@@ -59,7 +59,7 @@
 
 ## Install MTW Server
 
-1. Download dist file from RELEASES **...\#TBD...**
+1. Download distribution file from [Releases](https://github.com/filak/MTW-MeSH/releases) **...\#TBD...**
 
 2. Unpack dist file to <**MTW_HOME_DIR**>
 
