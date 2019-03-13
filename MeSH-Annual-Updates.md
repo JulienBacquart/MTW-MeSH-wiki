@@ -18,6 +18,6 @@
 
         <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-7. **Perform steps 4 to 8** in [Loading MeSH datasets](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Loading-MeSH-datasets)
+7. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
 
 8. Start MTW Server and MTW Worker services
