@@ -61,9 +61,7 @@ The development of MTW has been possible thanks to other open source projects:
 # Production
 
 * MTW manual \#TBD... 
-
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
-
 * Backups \#TBD...
 
 # Deployment
