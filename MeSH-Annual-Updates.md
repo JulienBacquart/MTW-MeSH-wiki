@@ -1,5 +1,3 @@
-# MeSH Annual Updates #
-
 1. Export the annual datasets - ie. UMLS TSV, MARC etc.
 
 2. Backup your <**mesh**> dataset using Fuseki interface
