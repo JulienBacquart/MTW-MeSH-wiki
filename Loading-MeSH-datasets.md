@@ -8,13 +8,14 @@ Set up a Jena assembler config file
 
 Copy file:
 
-    <MTW_HOME_DIR>\instance\conf\mesh.ttl
+<MTW_HOME_DIR>\instance\conf\mesh.ttl
 
 to:
 
-    <FUSEKI_DATA_DIR>\configuration\
+<FUSEKI_DATA_DIR>\configuration\
 
 > If you have not translated MeSH before - you can proceed to step 4.
+
 
 1. Download your *.xml.gz translation file at
     
