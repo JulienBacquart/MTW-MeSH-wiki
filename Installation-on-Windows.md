@@ -45,9 +45,9 @@
 
 2. Unpack the distribution file to your <**SQLITE_HOME_DIR**>
 
-3. Create/Set ENV variables
+3. Create/Set envinronmental (ENV) variable
 
-        SQLITE_HOME  <SQLITE_HOME_DIR>
+    SQLITE_HOME  <SQLITE_HOME_DIR>
 
 4. Add to your PATH variable
 
@@ -70,7 +70,7 @@
     Run:
 
           mtw-server-win-service.exe install
-
+        
           mtw-server-win-worker.exe install
 
 4. Set Admin credentials using **set-mtw-admin.exe** - run:
@@ -89,11 +89,11 @@
      
         <MTW_HOME_DIR>\instance\conf\mtw.ini
 
-7. Create/Set ENV variables
+7. Create/Set envinronmental (ENV) variable
 
-        MTW_HOME  <MTW_HOME_DIR>
+    MTW_HOME  <MTW_HOME_DIR>
 
-8. Add to your PATH variable:
+8. Add to your PATH variable
 
         ;%MTW_HOME%\tools
     
