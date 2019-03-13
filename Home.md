@@ -31,11 +31,11 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * fulltext searching with filters
 * statistics & todo lists, clipboard
 * compare & diff descriptors with previous versions
-* user roles: viewer, contributor, editor, manager
+* custom concepts support
 * complete audit & changes approval
 * reporting & user management
+* user roles: viewer, contributor, editor, manager
 * duplicate terms checks
-* custom concepts support
 * exports to UMLS TSV, JSON, XML, MARC21
 
 ## MTW Stack
