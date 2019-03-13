@@ -1,6 +1,6 @@
 # Welcome #
 
-***Medical Subject Headings*** (MeSH) is a biomedical vocabulary produced by the *National Library of Medicine* ([NLM](https://www.nlm.nih.gov/mesh/), Bethesda, USA)   
+***Medical Subject Headings*** (MeSH) is a biomedical vocabulary (thesaurus) produced by the *National Library of Medicine* ([NLM](https://www.nlm.nih.gov/mesh/), Bethesda, USA)   
 
 MTW stands for **Medical Subject Headings Translation Workflow** project.
 
