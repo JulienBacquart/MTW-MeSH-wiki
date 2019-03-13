@@ -31,6 +31,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * fulltext searching with filters
 * statistics & todo lists, clipboard
 * compare & diff descriptors with previous versions
+* user roles: viewer, contributor, editor, manager
 * complete audit & changes approval
 * reporting & user management
 * duplicate terms checks
