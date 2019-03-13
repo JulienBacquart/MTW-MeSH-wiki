@@ -16,7 +16,7 @@
 
 6. **Update MTW config file for new target year** 
 
-        <MTW_HOME_DIR>\instance\conf\mtw.ini 
+    <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
 7. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
 
