@@ -16,10 +16,10 @@
 
 4. Create/Set envinronmental (ENV) variables:
 
-        JENAROOT     <JENA_HOME_DIR>    
-        JENA_HOME    <JENA_HOME_DIR>    
-        FUSEKI_HOME  <FUSEKI_HOME_DIR>    
-        FUSEKI_BASE  <FUSEKI_DATA_DIR>
+    JENAROOT     <JENA_HOME_DIR>    
+    JENA_HOME    <JENA_HOME_DIR>    
+    FUSEKI_HOME  <FUSEKI_HOME_DIR>    
+    FUSEKI_BASE  <FUSEKI_DATA_DIR>
 
 5. Add to your PATH variable
 
