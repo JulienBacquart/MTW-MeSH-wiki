@@ -1,5 +1,3 @@
-# Installation on Windows
-
 ## Install Java 8 JRE 
 
 * Apache Jena/Fuseki requires Java 8 JRE https://www.oracle.com/technetwork/java/javase/downloads/
@@ -120,4 +118,4 @@
     http://localhost:55930/mtw
 
 
-## Continue to [Loading MeSH datasets](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Loading-MeSH-datasets) ##
+## Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) ##
