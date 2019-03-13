@@ -14,7 +14,7 @@
 
 3. Create a directory to store your data <**FUSEKI_DATA_DIR**>
 
-4. Create/Set envinronmental (ENV) variables:
+4. Create/Set environmental (ENV) variables:
 
     JENAROOT     <JENA_HOME_DIR>    
     JENA_HOME    <JENA_HOME_DIR>    
@@ -45,7 +45,7 @@
 
 2. Unpack the distribution file to your <**SQLITE_HOME_DIR**>
 
-3. Create/Set envinronmental (ENV) variable
+3. Create/Set environmental (ENV) variable
 
     SQLITE_HOME  <SQLITE_HOME_DIR>
 
@@ -87,9 +87,9 @@
 
 6. Customize the **config file** - important values are marked with **!**
      
-        <MTW_HOME_DIR>\instance\conf\mtw.ini
+    <MTW_HOME_DIR>\instance\conf\mtw.ini
 
-7. Create/Set envinronmental (ENV) variable
+7. Create/Set environmental (ENV) variable
 
     MTW_HOME  <MTW_HOME_DIR>
 
