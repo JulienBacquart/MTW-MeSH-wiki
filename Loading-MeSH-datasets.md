@@ -1,4 +1,4 @@
-# Loading MeSH datasets into Apache Jena #
+# into Apache Jena #
 
 ## Loading data from a backup ##
 
@@ -75,4 +75,4 @@ to:
     
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
     
-8. [Start Fuseki server](https://bitbucket.org/filakx/mesh-translation-workflow-dev/wiki/Running-Fuseki-server) instance
+8. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
