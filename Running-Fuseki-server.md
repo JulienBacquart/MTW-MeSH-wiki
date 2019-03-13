@@ -1,5 +1,3 @@
-# Running Fuseki server #
-
 * In testing or development environments open Command prompt and run:
     
         fuseki-server --localhost
