@@ -11,7 +11,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 ## Advantages of using RDF data
 
 * RDF can contain complex structures without tables/schemas
-* ability to extend MeSH data models
+* ability to [extend](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model) MeSH RDF data model
 * eficient handling of MeSH data updates
 * usage of custom prefixes for the translations 
 
