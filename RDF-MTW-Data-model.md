@@ -1,5 +1,3 @@
-# MTW Data model
-
 ## MeSH Translation namespaces
 
 PREFIX text: \<http\://jena.apache.org/text#>
