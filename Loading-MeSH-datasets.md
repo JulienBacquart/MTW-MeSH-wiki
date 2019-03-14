@@ -17,7 +17,7 @@ to:
 > If you have not translated MeSH before - you can proceed to step 4.
 
 
-1. Download your *.xml.gz translation file at
+1. Download your ***.xml.gz** translation file at
     
     [ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/](ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/)
     
@@ -41,7 +41,7 @@ to:
         
         riot --validate mesh-trx_YYYY-MM-DD.nt.gz
 
-4. Download the official MeSH RDF dataset mesh.nt.gz at [ftp://ftp.nlm.nih.gov/online/mesh/rdf/](ftp://ftp.nlm.nih.gov/online/mesh/rdf/)
+4. Download the official MeSH RDF dataset **mesh.nt.gz** at [ftp://ftp.nlm.nih.gov/online/mesh/rdf/](ftp://ftp.nlm.nih.gov/online/mesh/rdf/)
    and validate the file - run:
     
         riot --validate mesh.nt.gz
