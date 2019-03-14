@@ -30,11 +30,13 @@ Language tag is used for non-english values ie. @cs
 
 **mesht:lexicalTag** - Term property
 
-*_mesht:lockedBy_ - Descriptor property - if exists/true indicates a MTW user is working on the descriptor
+*_mesht:lockedBy_ - Descriptor property 
+- if exists/true indicates a MTW user is working on the descriptor
 
 **mesht:narrowerConcept** - Concept property
 
-*_mesht:notTranslatable_ - Concept property - if exists/true a MTW user stated the concept is not translatable
+*_mesht:notTranslatable_ - Concept property 
+- if exists/true a MTW user stated the concept is not translatable
 
 **mesht:prefLabel** - Term property
 
@@ -46,5 +48,6 @@ Language tag is used for non-english values ie. @cs
 
 **mesht:term** - Concept property
 
-*_mesht:translatorsNote_ - Concept/Descriptor property - custom translators non-public/internal note
+*_mesht:translatorsNote_ - Concept/Descriptor property 
+- custom translators non-public/internal note
 
