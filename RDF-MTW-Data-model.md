@@ -3,6 +3,8 @@
 PREFIX text: \<http\://jena.apache.org/text#>
 
 PREFIX meshx: \<target language custom value#>
+- used for Terms & custom Concepts URIs
+- value is uuid.uuid4()
 
 PREFIX mesht: \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
