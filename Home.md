@@ -27,8 +27,8 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 
 ## Notable MTW features
 
-* MeSH tree browsing with filters
-* fulltext searching with filters
+* MeSH tree browsing & filtering
+* fulltext searching & filtering
 * statistics & todo lists, clipboard
 * compare & diff descriptors with previous versions
 * custom concepts support
@@ -43,7 +43,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena & Apache Jena Fuseki
-* Python & Flask
+* Python, Flask & Jinja
 * Bootstrap & Bootswatch
 * SQLite
 
