@@ -1,20 +1,20 @@
 ## Before initial data loading ##
 
-Set up a Jena assembler config file
+Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
-Copy file:
+* Adjust in mesh.ttl 
 
-<**MTW_HOME_DIR**>\instance\conf\mesh.ttl
+        c:\\Data\\mesh-mtw\\apache-jena-data 
 
-to:
+    to your <**FUSEKI_DATA_DIR**>
 
-<**FUSEKI_DATA_DIR**>\configuration\
+        tdb2:location  "c:\\Data\\mesh-mtw\\apache-jena-data/databases/mesh" ;
 
-Adjust in mesh.ttl **c:\\Data\\mesh-mtw\\apache-jena-data** to your <**FUSEKI_DATA_DIR**>
+        text:directory "c:\\Data\\mesh-mtw\\apache-jena-data/indexes/mesh" ;
 
-    tdb2:location  "c:\\Data\\mesh-mtw\\apache-jena-data/databases/mesh" ;
+* Copy the file to:
 
-    text:directory "c:\\Data\\mesh-mtw\\apache-jena-data/indexes/mesh" ;
+    <**FUSEKI_DATA_DIR**>\configuration\
           
 ## Initial data loading ##
 
