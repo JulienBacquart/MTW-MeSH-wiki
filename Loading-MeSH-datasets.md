@@ -1,8 +1,4 @@
-## Loading data from a backup ##
-
-    tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
-
-## Initial data loading ##
+## Before initial data loading ##
 
 Set up a Jena assembler config file
 
@@ -13,6 +9,14 @@ Copy file:
 to:
 
 <**FUSEKI_DATA_DIR**>\configuration\
+
+Adjust in mesh.ttl **c:\\Data\\mesh-mtw\\apache-jena-data** to your <**FUSEKI_DATA_DIR**>
+
+    tdb2:location  "c:\\Data\\mesh-mtw\\apache-jena-data/databases/mesh" ;
+
+    text:directory "c:\\Data\\mesh-mtw\\apache-jena-data/indexes/mesh" ;
+          
+## Initial data loading ##
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
@@ -75,3 +79,7 @@ to:
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
     
 8. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
+
+## Loading data from a backup ##
+
+    tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
