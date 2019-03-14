@@ -43,7 +43,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena & Apache Jena Fuseki
-* Python, Flask & Jinja
+* Python, Flask & Jinja2
 * Bootstrap & Bootswatch
 * SQLite
 
