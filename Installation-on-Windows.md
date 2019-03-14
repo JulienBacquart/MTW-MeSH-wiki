@@ -65,7 +65,7 @@
 
 3. Install the **services**
     
-    Go to:  <MTW_HOME_DIR>
+    Go to your <**MTW_HOME_DIR**>
 
     Run:
 
@@ -79,7 +79,7 @@
 
 5. Create the **management database**
     
-    Go to:  <MTW_HOME_DIR>\instance\db
+    Go to  <**MTW_HOME_DIR**>\instance\db
     
     Run:
 
@@ -87,7 +87,7 @@
 
 6. Customize the **config file** - important values are marked with **!**
      
-    <MTW_HOME_DIR>\instance\conf\mtw.ini
+    <**MTW_HOME_DIR**>\instance\conf\mtw.ini
 
 7. Create/Set environmental (ENV) variable
 
@@ -99,7 +99,7 @@
     
 9. Start the services
     
-    Go to:  <MTW_HOME_DIR>
+    Go to your <**MTW_HOME_DIR**>
     
     Run:
     
