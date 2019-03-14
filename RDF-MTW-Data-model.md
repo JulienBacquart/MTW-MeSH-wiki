@@ -1,4 +1,4 @@
-## MeSH Translation namespaces
+## MTW namespaces
 
 PREFIX text: \<http\://jena.apache.org/text#>
 
