@@ -8,6 +8,13 @@ MTW stands for **Medical Subject Headings Translation Workflow** project.
 
 NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations around the globe virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary. Thus I have decided, having years of experience with MeSH data processing, to develop an open source system for handling the translation workflow on behalf of the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW system has been used in production at NML since January 2019.
 
+## Advantages of using RDF data
+
+* RDF can contain complex structures without tables/schemas
+* ability to extend MeSH data models
+* eficient handling of MeSH data updates
+* usage of custom prefixes for the translations 
+
 ## Main design goals
 
 * web application
@@ -17,13 +24,6 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * easy datasets loading and updates
 * light but scalable workflow
 * clean and intuitive interface 
-
-## Advantages of using RDF data
-
-* RDF can contain complex structures without tables/schemas
-* ability to extend MeSH data models
-* eficient handling of MeSH data updates
-* usage of custom prefixes for the translations 
 
 ## Notable MTW features
 
