@@ -117,5 +117,6 @@
     
     http://localhost:55930/mtw
 
+    If the server is not running check the logs located in <**MTW_HOME_DIR**>\instance\logs
 
 ## Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) ##
