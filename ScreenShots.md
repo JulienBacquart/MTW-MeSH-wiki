@@ -20,6 +20,10 @@
 
 ![Edit concept form](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-edit-concept.png)
 
+## Edit custom concept 
+
+![Edit custom concept](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-custom-concept.png)
+
 ## Clipboard
 
 ![Clipboard](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-clipboard.png)
