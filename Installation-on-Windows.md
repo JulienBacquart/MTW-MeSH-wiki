@@ -35,7 +35,11 @@
         
         java -Xmx8192M -jar %FUSEKI_HOME%\fuseki-server.jar %*
 
-7. Test the installation - open Command prompt and run:
+7. Test the installation
+
+    Go to your <**FUSEKI_DATA_DIR**>
+
+    open Command prompt and run:
  
         fuseki-server --version
 
