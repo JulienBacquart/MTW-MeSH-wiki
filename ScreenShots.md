@@ -40,11 +40,4 @@
 
 ![Approve page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-approve.png)
 
-## Report page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-reporting.png))
-
-![Report page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-reporting.png)
-
-## Manage page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png))
-
-![Manage page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png)
 
