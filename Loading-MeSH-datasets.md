@@ -68,7 +68,7 @@ to:
 
 7. Create Fuseki search index
    
-    Go to:  <**FUSEKI_DATA_DIR**>
+    Go to your <**FUSEKI_DATA_DIR**>
    
     Run:
     
