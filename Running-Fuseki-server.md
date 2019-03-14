@@ -11,3 +11,5 @@
 * Check if the server is running:
     
     http://localhost:3030
+
+> The server needs to "warm-up" - load data into memory - which might take 10 minutes. Throw in some queries from the MTW ...
