@@ -12,7 +12,7 @@ PREFIX mesht: \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
 Language tag is used for non-english values ie. @cs
 
-> \* denotes custom predicates - otherwise same definition and usage as the [official meshv:predicates](https://hhs.github.io/meshrdf/predicates)
+> \* denotes custom predicates - otherwise a property has the same definition and usage as the [official meshv:predicates](https://hhs.github.io/meshrdf/predicates)
 
 **mesht:annotation** - Descriptor property
 
