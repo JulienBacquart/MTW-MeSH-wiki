@@ -1,14 +1,14 @@
-## MTW namespaces
+## MTW Namespaces
 
 PREFIX text: \<http\://jena.apache.org/text#>
 
-PREFIX meshx: \<target language custom value#>
+PREFIX meshx: \<configurable for each target language>
 - used for Terms & custom Concepts URIs
 - value is uuid.uuid4()
 
 PREFIX mesht: \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
-## mesht: predicates
+## mesht: Predicates
 
 Language tag is used for non-english values ie. @cs
 
