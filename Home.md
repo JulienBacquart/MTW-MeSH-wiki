@@ -12,8 +12,8 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 
 * RDF can contain complex structures without tables/schemas
 * ability to [extend](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model) MeSH RDF data model
-* eficient handling of MeSH data updates
-* usage of custom prefixes for the translations 
+and to use custom namespaces for the translations 
+* efficient handling of MeSH data updates
 
 ## Main design goals
 
@@ -28,7 +28,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 ## Notable MTW features
 
 * MeSH tree browsing & filtering
-* fulltext searching & filtering
+* full text searching & filtering
 * statistics & todo lists, clipboard
 * compare & diff descriptors with previous versions
 * custom concepts support
