@@ -4,7 +4,7 @@
 * [Spacelab](https://bootswatch.com/spacelab/) - light
 * [Flatly](https://bootswatch.com/flatly/) - light
 
-## Intro page ([full](https://github.com/filak/MTW-MeSH/blob/master/screenshots/mtw-man-intro.png))
+## Intro ([full](https://github.com/filak/MTW-MeSH/blob/master/screenshots/mtw-man-intro.png))
 
 ![Intro page](https://github.com/filak/MTW-MeSH/blob/master/screenshots/mtw-man-intro.png)
 
@@ -12,7 +12,7 @@
 
 ![Browse tree](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-browse.png)
 
-## Search page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-search.png))
+## Search & Edit ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-search.png))
 
 ![Search page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-search.png)
 
@@ -28,16 +28,23 @@
 
 ![Clipboard](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-clipboard.png)
 
-## Compare / Diff page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-diff.png))
+## Compare / Diff ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-diff.png))
 
 ![Compare page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-diff.png)
 
-## Audit page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-audit.png))
+## Audit ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-audit.png))
 
 ![Audit page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-audit.png)
 
-## Approve page ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-approve.png))
+## Approve ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-approve.png))
 
 ![Approve page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-approve.png)
 
+## Report ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-reporting.png))
+
+![Report page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-reporting.png)
+
+## Exports ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png))
+
+![Exports](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png) 
 
