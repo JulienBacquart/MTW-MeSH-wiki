@@ -18,7 +18,7 @@ and to use custom namespaces for the translations
 ## Main design goals
 
 * web application
-* no proprietary software
+* no proprietary software/components
 * no heavy hardware (it runs even on a PC)
 * cross-platform portability (though I develop on Windows)
 * easy datasets loading and updates
@@ -28,7 +28,7 @@ and to use custom namespaces for the translations
 ## Notable MTW features
 
 * MeSH tree browsing & filtering
-* full text searching & filtering
+* full text searching with *, ? and phrase "" support
 * statistics & todo lists, clipboard
 * compare & diff descriptors with previous versions
 * custom concepts support
