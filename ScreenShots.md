@@ -4,9 +4,9 @@
 * [Spacelab](https://bootswatch.com/spacelab/) - light
 * [Flatly](https://bootswatch.com/flatly/) - light
 
-## Intro ([full](https://github.com/filak/MTW-MeSH/blob/master/screenshots/mtw-man-intro.png))
+## Intro ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-intro.png))
 
-![Intro page](https://github.com/filak/MTW-MeSH/blob/master/screenshots/mtw-man-intro.png)
+![Intro page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-intro.png)
 
 ## Browse the MeSH tree ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-browse.png))
 
