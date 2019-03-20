@@ -43,7 +43,7 @@ and to use custom namespaces for the translations
 The development of MTW has been possible thanks to other open source projects:
 
 * Apache Jena & Apache Jena Fuseki
-* Python, Flask & Jinja2
+* Flask & Jinja2
 * Bootstrap & Bootswatch
 * SQLite
 
