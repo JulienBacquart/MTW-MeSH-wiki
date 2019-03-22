@@ -82,4 +82,12 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
 ## Loading data from a backup ##
 
-    tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
+Stop your Fuseki instance
+
+Go to your <**FUSEKI_DATA_DIR**> and make sure the <**mesh**> directories under datatabases and indexes dirs are empty !
+
+Run: 
+
+        tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
+
+Start your Fuseki instance
