@@ -1,3 +1,5 @@
+* Always start Fuseki from your <**FUSEKI_DATA_DIR**>
+
 * In testing or development environments open Command prompt and run:
     
         fuseki-server --localhost
