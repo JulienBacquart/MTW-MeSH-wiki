@@ -16,7 +16,7 @@
 
 6. **Stop MTW Server and MTW Worker services**
 
-7. **Update MTW config file for new target year** 
+7. **Update MTW config file**  for new target year/period
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
