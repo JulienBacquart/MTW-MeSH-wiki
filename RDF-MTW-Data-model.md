@@ -15,7 +15,7 @@ Language tag is used for non-english literal values ie. @cs
 
 > \* denotes custom predicates - otherwise a property has the same definition and usage as the [official meshv:predicates](https://hhs.github.io/meshrdf/predicates)
 
-**mesht:active** - Custom Concept and its Terms property 
+**mesht:active** - Custom Concept/Terms property 
 - only when deleted - always: false
 
 **mesht:annotation** - Descriptor property
