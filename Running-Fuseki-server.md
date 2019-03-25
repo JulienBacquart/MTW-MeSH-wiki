@@ -14,4 +14,4 @@
     
     http://localhost:3030
 
-> The server needs to "warm-up" - load data into memory - which might take 10 minutes. Throw in some queries from the MTW ...
+> The server needs to "warm-up" - load data into memory - which might take up to 10 minutes
