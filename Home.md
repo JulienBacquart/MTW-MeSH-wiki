@@ -15,7 +15,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 and to use custom namespaces for the translations 
 * efficient handling of MeSH data updates
 
-## Main design goals
+## Design goals
 
 * web application
 * no proprietary software/components
@@ -25,22 +25,22 @@ and to use custom namespaces for the translations
 * light but scalable workflow
 * clean and intuitive interface - see some [screenshots](https://github.com/filak/MTW-MeSH/wiki/ScreenShots)
 
-## Notable MTW features
+## MTW features
 
 * MeSH tree browsing & filtering
 * full text searching with *, ? and phrase "" support
 * statistics & todo lists, clipboard
-* compare & diff descriptors with previous versions
+* compare & diff descriptors versions
 * custom concepts support
 * complete audit & changes approval
 * reporting & user management
 * user roles: viewer, contributor, editor, manager
-* duplicate terms checks
+* duplicate terms check
 * exports to UMLS TSV, JSON, XML, MARC21
 
 ## MTW Stack
 
-The development of MTW has been possible thanks to other open source projects:
+Development of MTW has been possible thanks to other open source projects, notably:
 
 * Apache Jena & Apache Jena Fuseki
 * Flask & Jinja2
