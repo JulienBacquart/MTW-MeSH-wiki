@@ -68,6 +68,10 @@
 2. Unpack dist file to <**MTW_HOME_DIR**>
 
 3. Install the **services**
+
+    The default ports are:  55930, 55933
+
+    > If you want to change - set <MTW_SERVER_PORT> and <MTW_WORKER_PORT> ENV variables.
     
     Go to your <**MTW_HOME_DIR**>
 
@@ -111,7 +115,7 @@
 
         mtw-server-win-worker.exe start
 
-    Note host:port
+    Note - default host:port
     
     > mtw-server-win-service - MTW Server - localhost:55930
     
