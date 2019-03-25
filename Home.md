@@ -40,7 +40,7 @@ and to use custom namespaces for the translations
 
 ## MTW Stack
 
-Development of MTW has been possible thanks to other open source projects, notably:
+Development of MTW has been possible thanks to many other open source projects, notably:
 
 * Apache Jena & Apache Jena Fuseki
 * Flask & Jinja2
