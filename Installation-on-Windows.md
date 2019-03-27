@@ -130,7 +130,7 @@
 ### Bundled service manager usage
 
 ```
-medlike-....exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]
+mtw-... .exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]
 Options for 'install' and 'update' commands only:
  --username domain\username : The Username the service is to run under
  --password password : The password for the username
