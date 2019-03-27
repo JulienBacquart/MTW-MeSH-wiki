@@ -84,17 +84,42 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
 ## Loading data from a backup ##
 
-Stop your Fuseki instance
+1. Stop MTW services
 
-Go to your <**FUSEKI_DATA_DIR**> 
+2. Stop your Fuseki instance
+
+3. Go to your <**FUSEKI_DATA_DIR**> 
 and make sure the <**mesh**> directories under datatabases and indexes dirs are empty !
 
-Run import: 
+    Run import: 
 
         tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
 
-Create the search index:
+    Create the search index:
 
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
 
-Start your Fuseki instance
+4. Start your Fuseki instance
+
+5. Start MTW services
+
+> Bundled service manager usage help:
+
+```
+Usage: 'medlike-....exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]'
+Options for 'install' and 'update' commands only:
+ --username domain\username : The Username the service is to run under
+ --password password : The password for the username
+ --startup [manual|auto|disabled|delayed] : How the service starts, default = manual
+ --interactive : Allow the service to interact with the desktop.
+ --perfmonini file: .ini file to use for registering performance monitor data
+ --perfmondll file: .dll file to use when querying the service for
+   performance data, default = perfmondata.dll
+Options for 'start' and 'stop' commands only:
+ --wait seconds: Wait for the service to actually start or stop.
+                 If you specify --wait with the 'stop' option, the service
+                 and all dependent services will be stopped, each waiting
+                 the specified period.
+```
+
+> Note - you can also use Windows Services management
