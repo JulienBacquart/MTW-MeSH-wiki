@@ -19,7 +19,7 @@ and to use custom namespaces for the translations
 
 * web application
 * no proprietary software/components
-* no heavy hardware (it runs even on a PC)
+* no special hardware (it runs even on a PC/laptop)
 * cross-platform portability (though I develop on Windows)
 * easy datasets loading and updates
 * light but scalable workflow
@@ -49,7 +49,7 @@ Development of MTW has been possible thanks to many other open source projects, 
 
 # Getting started
 
-* Apache Jena/Fuseki requires Java 8 JRE
+* Apache Jena/Fuseki requires Java 8 JRE & 2-4 GB of RAM
 
 1. Follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (\#TBD: Linux) 
 
