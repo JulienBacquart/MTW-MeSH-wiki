@@ -106,7 +106,7 @@ and make sure the <**mesh**> directories under datatabases and indexes dirs are 
 > Bundled service manager usage help:
 
 ```
-Usage: 'medlike-....exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]'
+medlike-....exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]
 Options for 'install' and 'update' commands only:
  --username domain\username : The Username the service is to run under
  --password password : The password for the username
