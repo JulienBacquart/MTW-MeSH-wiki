@@ -32,7 +32,8 @@ Language tag is used for non-english literal values ie. @cs
 
 **mesht:identifier** - Term property
 - only retained from XML
-- not used with newly translated terms as this identifier is optional by UMLS TSV spec
+- not used with newly translated terms as this identifier is optional in UMLS TSV spec
+- might be generated annualy if required - #TBD
 
 **mesht:lexicalTag** - Term property
 
