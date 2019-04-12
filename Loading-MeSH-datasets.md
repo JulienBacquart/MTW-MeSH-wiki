@@ -45,12 +45,14 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
         
         riot --validate mesh-trx_YYYY-MM-DD.nt.gz
 
-    Not output = data is OK
+    No output = data is OK
 
 4. Download the official MeSH RDF dataset **mesh.nt.gz** at [ftp://ftp.nlm.nih.gov/online/mesh/rdf/](ftp://ftp.nlm.nih.gov/online/mesh/rdf/)
    and validate the file - run:
     
         riot --validate mesh.nt.gz
+
+    No output = data is OK
 
 5. Move the file(s) into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
 
