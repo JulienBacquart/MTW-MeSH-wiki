@@ -34,7 +34,7 @@ and to use custom namespaces for the translations
 * custom concepts support
 * complete audit & changes approval
 * reporting & user management
-* user roles: viewer, contributor, editor, manager
+* user roles based workflow: viewer, contributor, editor, manager
 * duplicate terms check
 * exports to UMLS TSV, JSON, XML, MARC21
 
