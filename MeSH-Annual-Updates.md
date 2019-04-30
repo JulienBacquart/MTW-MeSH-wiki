@@ -8,7 +8,9 @@
 
 4. ALWAYS validate the backup - run:
     
-        riot --validate mesh_YYYY-MM-DD_....nt.gz 
+        riot --validate mesh_YYYY-MM-DD_....nt.gz
+
+   No output = data is OK
 
 5. Extract the translation from the backup using **mesh-nt2trx** tool - run:
     
