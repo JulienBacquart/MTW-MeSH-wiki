@@ -4,7 +4,7 @@
 
 2. Export required datasets from MTW - ie. UMLS TSV, MARC etc.
 
-3. Backup your <**mesh**> dataset using Fuseki interface
+3. **BACKUP** your <**mesh**> dataset using Fuseki interface
 
 4. ALWAYS validate the backup - run:
     
@@ -18,10 +18,12 @@
 
 6. **Stop MTW Server and MTW Worker services**
 
-7. **Update MTW config file**  for new target year/period
+7. Go to your <**FUSEKI_DATA_DIR**> and DELETE the <**mesh**> directories under datatabases and indexes dirs
+
+8. **Update MTW config file**  for new target year/period
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-8. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
+9. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
 
-9. Start MTW Server and MTW Worker services
+10. Start MTW Server and MTW Worker services
