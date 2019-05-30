@@ -1,25 +1,26 @@
 # Welcome #
 
-***Medical Subject Headings*** (MeSH) is a biomedical vocabulary (thesaurus) produced by the *National Library of Medicine* ([NLM](https://www.nlm.nih.gov/mesh/), Bethesda, USA)   
+***Medical Subject Headings*** (MeSH) is a controlled vocabulary (thesaurus) for life sciences field produced by the *National Library of Medicine* ([NLM](https://www.nlm.nih.gov/mesh/), Bethesda, USA)   
 
 MTW stands for **Medical Subject Headings Translation Workflow** project.
 
 ## Rationale behind MTW
 
-NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations around the globe virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary. Thus I have decided, having years of experience with MeSH data processing, to develop an open source system for handling the translation workflow on behalf of the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW system has been used in production at NML since January 2019.
+NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations around the world virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary. Thus I have decided, having some experience with MeSH data processing, to develop an open source system for handling the translation workflow on behalf of the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW system was developed in the second half of 2018 and it has been used in production at NML since January 2019.
 
-## Advantages of using RDF data
+## Advantages of using RDF data for MeSH translation
 
-* RDF can contain complex structures without tables/schemas
-* ability to [extend](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model) MeSH RDF data model
-and to use custom namespaces for the translations 
-* efficient handling of MeSH data updates
+* can contain complex structures & relations without tables/schemas
+* ability to extend data model
+([custom namespaces for the translations](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model)) 
+* efficient handling of data updates
+* SPARQL endpoint for data access 
 
 ## Design goals
 
 * web application
 * no proprietary software/components
-* no special hardware (it runs even on a PC/laptop)
+* no special hardware (running even on a PC/laptop)
 * cross-platform portability (though I develop on Windows)
 * easy datasets loading and updates
 * light but scalable workflow
@@ -30,7 +31,7 @@ and to use custom namespaces for the translations
 * MeSH tree browsing & filtering
 * full text searching with *, ? and phrase "" support
 * statistics & todo lists, clipboard
-* compare & diff descriptors versions
+* compare & diff descriptor versions
 * custom concepts support
 * complete audit & changes approval
 * reporting & user management
@@ -42,7 +43,7 @@ and to use custom namespaces for the translations
 
 Development of MTW has been possible thanks to many other open source projects, notably:
 
-* Apache Jena & Apache Jena Fuseki
+* Apache Jena & Fuseki, SOLR
 * Flask & Jinja2
 * Bootstrap & Bootswatch
 * SQLite
