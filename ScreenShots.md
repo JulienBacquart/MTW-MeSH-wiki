@@ -44,7 +44,7 @@
 
 ![Report page](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-reporting.png)
 
-## Manage - Checks & Exports ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png))
+## Manage - checks & exports ([full](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png))
 
 ![Exports](https://raw.githubusercontent.com/filak/MTW-MeSH/master/screenshots/mtw-man-manage-exports.png) 
 
