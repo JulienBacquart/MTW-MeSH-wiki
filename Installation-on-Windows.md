@@ -75,7 +75,7 @@
 
     The default ports are:  55930, 55933
 
-    > If you want to change - set <MTW_SERVER_PORT> and <MTW_WORKER_PORT> ENV variables.
+    > If you want to change the ports - set <MTW_SERVER_PORT> and <MTW_WORKER_PORT> ENV variables.
     
     Go to your <**MTW_HOME_DIR**>
 
