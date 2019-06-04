@@ -47,7 +47,11 @@
 
 1. Download SQLite3 binary files at https://www.sqlite.org/download.html
 
-2. Unpack the distribution file to your <**SQLITE_HOME_DIR**>
+    - use _Precompiled Binaries for Windows_ for your platform
+   
+    - do not forget to download the **sqlite-tools-...** package
+
+2. Unpack the files to your <**SQLITE_HOME_DIR**>
 
 3. Create/Set environmental (ENV) variable
 
