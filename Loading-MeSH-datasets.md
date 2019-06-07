@@ -8,7 +8,7 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
         text:directory "c:/Data/mesh-mtw/apache-jena-data/indexes/mesh" ;
 
-* Copy the file to:
+* Copy mesh.ttl file to:
 
     <**FUSEKI_DATA_DIR**>\configuration\
           
