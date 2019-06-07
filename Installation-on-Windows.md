@@ -101,6 +101,8 @@
      
     <**MTW_HOME_DIR**>\instance\conf\mtw.ini
 
+    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw.ini
+
 7. Create/Set environmental (ENV) variable
 
     MTW_HOME  <MTW_HOME_DIR>
