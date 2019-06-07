@@ -33,7 +33,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
     
         mesh-xml2trx *.xml.gz <TARGET_NS>
 
-    **TARGET_NS** - target namespace param - the custom URI prefix for you translation - **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
+    **IMPORTANT:  TARGET_NS** - target namespace param - the custom URI prefix for you translation - **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
+
+    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw.ini
 
     ie.
     
