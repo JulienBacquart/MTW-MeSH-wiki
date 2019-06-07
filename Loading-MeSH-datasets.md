@@ -34,7 +34,9 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
     Run:
     
         mesh-xml2trx *.xml.gz <TARGET_NS>
-   
+
+    **TARGET_NS** - target namespace param - the custom URI prefix for you translation - **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
+
     ie.
     
         mesh-xml2trx czedesc2018.xml.gz http://mesh.medvik.cz/link/
