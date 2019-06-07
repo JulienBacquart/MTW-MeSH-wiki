@@ -4,13 +4,13 @@ Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
 * Adjust in mesh.ttl 
 
-        c:\\Data\\mesh-mtw\\apache-jena-data 
+        c:/Data/mesh-mtw/apache-jena-data 
 
     to your <**FUSEKI_DATA_DIR**>
 
-        tdb2:location  "c:\\Data\\mesh-mtw\\apache-jena-data/databases/mesh" ;
+        tdb2:location  "c:/Data/mesh-mtw/apache-jena-data/databases/mesh" ;
 
-        text:directory "c:\\Data\\mesh-mtw\\apache-jena-data/indexes/mesh" ;
+        text:directory "c:/Data/mesh-mtw/apache-jena-data/indexes/mesh" ;
 
 * Copy the file to:
 
