@@ -2,11 +2,7 @@
 
 Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
 
-* Adjust in mesh.ttl 
-
-        c:/Data/mesh-mtw/apache-jena-data 
-
-    to your <**FUSEKI_DATA_DIR**>
+* Adjust paths "c:/Data/mesh-mtw/apache-jena-data" in mesh.ttl to your <**FUSEKI_DATA_DIR**>
 
         tdb2:location  "c:/Data/mesh-mtw/apache-jena-data/databases/mesh" ;
 
