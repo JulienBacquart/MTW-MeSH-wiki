@@ -30,7 +30,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 ## MTW features
 
 * MeSH tree browsing & filtering
-* full text searching with *, ? and phrase "" support
+* full text searching with *, ? and phrase "" and boolean support
 * statistics & todo lists, clipboard
 * compare & diff descriptor versions
 * custom concepts support
