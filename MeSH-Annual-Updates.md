@@ -1,4 +1,4 @@
-> You can update more often if required - just repeat the steps.
+> You can update more often than annually if required - just repeat the steps.
 
 1. ALWAYS perform the checks and resolve any issues - ie. duplicates, locks, pending changes etc.
 
