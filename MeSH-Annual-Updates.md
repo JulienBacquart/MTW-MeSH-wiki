@@ -24,6 +24,6 @@
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-9. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
+9. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#initial-data-loading)
 
 10. Start MTW Server and MTW Worker services
