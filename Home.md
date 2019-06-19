@@ -15,6 +15,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * ability to extend the official data model
 ([custom namespaces for the translations](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model)) 
 * efficient handling of data updates
+* possibility to publish the translation as linked data #TBD
 
 
 ## Design goals
