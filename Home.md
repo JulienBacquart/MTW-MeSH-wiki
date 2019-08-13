@@ -72,11 +72,12 @@ Development of MTW has been possible thanks to many other open source projects, 
 
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
 * Backups 
-    - use Fuseki for Jena data backup
-    - use [mtw_backup-vacuum.bat](https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/db/mtw_backup-vacuum.bat) for SQLite db backup
+    - for Jena data use Fuseki GUI or [command](https://jena.apache.org/documentation/fuseki2/fuseki-server-protocol.html)
+    - for SQLite db use [mtw_backup-vacuum.bat](https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/db/mtw_backup-vacuum.bat)
     - **store the backup files safely** 
 * Upgrades
-    - download the newest [release](https://github.com/filak/MTW-MeSH/releases) 
+    - download the newest [release](https://github.com/filak/MTW-MeSH/releases) MTW-vX.Y.Z
+    - check the release notes on breaking changes (if any)
     - stop the MTW services 
     - **backup <MTW_HOME_DIR> directory** 
     - rewrite binaries and static, templates, tools dirs in <MTW_HOME_DIR> 
