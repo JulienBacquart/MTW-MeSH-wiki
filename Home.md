@@ -71,9 +71,17 @@ Development of MTW has been possible thanks to many other open source projects, 
 # Production
 
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
-* Backups \#TBD... 
+* Backups 
+    - use Fuseki for Jena data backup
+    - use [mtw_backup-vacuum.bat](https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/db/mtw_backup-vacuum.bat) for SQLite db backup
+    - **store the backup files safely** 
+* Upgrades
+    - download the newest [release](https://github.com/filak/MTW-MeSH/releases) 
+    - stop the MTW services 
+    - **backup <MTW_HOME_DIR> directory** 
+    - rewrite binaries and static, templates, tools dirs in <MTW_HOME_DIR> 
+    - start the services 
 * Manual/FAQ \#TBD... 
-* Upgrades \#TBD... 
 
 # Support
 
