@@ -29,3 +29,5 @@
 10. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#initial-data-loading)
 
 11. Start MTW Server and MTW Worker services
+
+12. Reset the Initial stats in Manage dashboard
