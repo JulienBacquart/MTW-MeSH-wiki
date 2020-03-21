@@ -1,6 +1,6 @@
-## Install Java 8 JRE 
+## Install Java 8
 
-* Apache Jena/Fuseki requires Java 8 JRE https://www.oracle.com/technetwork/java/javase/downloads/
+* Apache Jena/Fuseki requires Java 8 - https://adoptopenjdk.net/
 
 * Test the installation - open Command prompt and run:
 
@@ -8,7 +8,7 @@
 
 ## Install Apache Jena/Fuseki
 
-1. Download Jena/Fuseki binary files at https://jena.apache.org/download/index.cgi
+1. Download Jena and Fuseki binary files at https://jena.apache.org/download/index.cgi
 
 2. Unpack the distribution files to <**JENA_HOME_DIR**>, <**FUSEKI_HOME_DIR**>
 
@@ -20,6 +20,16 @@
     JENA_HOME    <JENA_HOME_DIR>    
     FUSEKI_HOME  <FUSEKI_HOME_DIR>    
     FUSEKI_BASE  <FUSEKI_DATA_DIR>
+   
+    Ie. 
+
+        setx /M JENAROOT c:\Programs\apache-jena-3.14.0\
+
+        setx /M JENA_HOME c:\Programs\apache-jena-3.14.0\
+
+        setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0\
+
+        setx /M FUSEKI_BASE d:\apache-jena-data\
 
 5. Add to your PATH variable
 
@@ -31,7 +41,7 @@
       
         java -Xmx1200M -jar fuseki-server.jar %*
         
-    to:
+    to (use 4096 MB or more):
         
         java -Xmx8192M -jar %FUSEKI_HOME%\fuseki-server.jar %*
 
