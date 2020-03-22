@@ -77,13 +77,15 @@ Development of MTW has been possible thanks to many other open source projects, 
     - backup <MTW_HOME_DIR> directory as zip or tar file
     - **backup regularly and store the backup files safely**
     - [loading dataset from backup](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) 
-* Upgrades
+* MTW Upgrades
     - download the newest [release](https://github.com/filak/MTW-MeSH/releases) MTW-vX.Y.Z
     - check the release notes on breaking changes (if any)
     - stop the MTW services 
     - **backup <MTW_HOME_DIR> directory** 
     - rewrite binaries and static, templates, tools dirs in <MTW_HOME_DIR> 
-    - start the services 
+    - start the services
+* Apache Jena/Fuseki upgrades
+    - do not reuse old data - always make last backup to [restore](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) in new version  
 * Manual/FAQ \#TBD... 
 
 # Support
