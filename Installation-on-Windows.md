@@ -21,15 +21,14 @@
     FUSEKI_HOME  <FUSEKI_HOME_DIR>    
     FUSEKI_BASE  <FUSEKI_DATA_DIR>
    
-    Ie. 
-
-        setx /M JENAROOT c:\Programs\apache-jena-3.14.0\
-
-        setx /M JENA_HOME c:\Programs\apache-jena-3.14.0\
-
-        setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0\
-
-        setx /M FUSEKI_BASE d:\apache-jena-data\
+    Ie.
+ 
+```
+setx /M JENAROOT c:\Programs\apache-jena-3.14.0\
+setx /M JENA_HOME c:\Programs\apache-jena-3.14.0\
+setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0\
+setx /M FUSEKI_BASE d:\apache-jena-data\
+ ```
 
 5. Add to your PATH variable
 
@@ -83,17 +82,23 @@
 
 3. Install the **services**
 
-    The default ports are:  55930, 55933
-
-    > If you want to change the ports - set <MTW_SERVER_PORT> and <MTW_WORKER_PORT> ENV variables.
+    Install [NSSM](https://nssm.cc) service manager
     
-    Go to your <**MTW_HOME_DIR**>
+    Go to your <**MTW_HOME_DIR**> and run for both services:
 
-    Run:
-
-          mtw-server-win-service.exe install
+          $ nssm install <SERVICE_NAME>-<PORT>
         
-          mtw-server-win-worker.exe install
+    - Application - Path:
+
+        C:\Programs\...\dist\*-server.exe
+
+    - Application - Startup dir:
+
+        C:\Programs\...\dist   
+
+    - Application - Arguments - you can change port:
+
+        -- <PORT>
 
 4. Set Admin credentials using **set-mtw-admin.exe** - run:
 
