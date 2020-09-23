@@ -23,7 +23,7 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 * web application
 * no proprietary software/components
 * no special hardware (running even on a PC/laptop)
-* cross-platform portability (though I develop on Windows)
+* cross-platform portability (though developed on Windows)
 * easy datasets loading and updates
 * light but scalable workflow
 * clean and intuitive interface - see some [screenshots](https://github.com/filak/MTW-MeSH/wiki/ScreenShots)
