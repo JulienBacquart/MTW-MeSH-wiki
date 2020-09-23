@@ -132,7 +132,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
     
 9. Start the services using Windows Services manager
     
-10. Check the logs whether the apps are running: <**MTW_HOME_DIR**>\instance\logs
+10. Check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
+
+11. **You need to setup a proxy** on you web server - see the [Deployment](https://github.com/filak/MTW-MeSH/wiki#deployment) instructions 
 
 
 ## Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) ##
