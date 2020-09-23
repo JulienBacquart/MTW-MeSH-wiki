@@ -74,7 +74,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
 
         sqlite3 --version
 
-## Install MTW Server
+## Install MTW-Server and MTW-Worker as Windows service
 
 1. Download distribution file **MTW-vX.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
 
