@@ -84,21 +84,23 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
 
     Install [NSSM](https://nssm.cc) service manager
     
-    Go to your <**MTW_HOME_DIR**> and run for both services:
+    Go to your <**MTW_HOME_DIR**> and run for both server and worker:
 
           $ nssm install <SERVICE_NAME>-<PORT>
         
-    - Application - Path:
+    - Application - Path - select the EXE file ie.:
 
-        C:\Programs\...\dist\*-server.exe
+          C:\Programs\...\dist\mtw-server.exe
+
+          C:\Programs\...\dist\mtw-worker.exe 
 
     - Application - Startup dir:
 
-        C:\Programs\...\dist   
+          C:\Programs\...\dist   
 
-    - Application - Arguments - you can change port:
+    - (optional) Application - Arguments - you can change port:
 
-        -- <PORT>
+          -- <PORT>
 
 4. Set Admin credentials using **set-mtw-admin.exe** - run:
 
@@ -126,45 +128,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
 
         ;%MTW_HOME%\tools
     
-9. Start the services
+9. Start the services using Windows Services manager
     
-    Go to your <**MTW_HOME_DIR**>
-    
-    Run:
-    
-        mtw-server-win-service.exe start
+10. Check the logs whether the apps are running: <**MTW_HOME_DIR**>\instance\logs
 
-        mtw-server-win-worker.exe start
-
-    Note - default host:port
-    
-    > mtw-server-win-service - MTW Server - localhost:55930
-    
-    > mtw-server-win-worker - MTW Server Worker - localhost:55933    
-    
-10. Check if MTW server is running
-    
-    http://localhost:55930/mtw
-
-    If the server is not running check the logs located in <**MTW_HOME_DIR**>\instance\logs
-
-### Bundled service manager usage
-
-```
-mtw-... .exe [options] install|update|remove|start [...]|stop|restart [...]|debug [...]
-Options for 'install' and 'update' commands only:
- --username domain\username : The Username the service is to run under
- --password password : The password for the username
- --startup [manual|auto|disabled|delayed] : How the service starts, default = manual
- --interactive : Allow the service to interact with the desktop.
- --perfmonini file: .ini file to use for registering performance monitor data
- --perfmondll file: .dll file to use when querying the service for
-   performance data, default = perfmondata.dll
-Options for 'start' and 'stop' commands only:
- --wait seconds: Wait for the service to actually start or stop.
-                 If you specify --wait with the 'stop' option, the service
-                 and all dependent services will be stopped, each waiting
-                 the specified period.
-```
 
 ## Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) ##
