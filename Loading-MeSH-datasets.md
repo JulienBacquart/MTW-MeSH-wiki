@@ -88,9 +88,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 ## Loading data from a backup ##
 
-1. Stop MTW services
+1. **Stop MTW services**
 
-2. Stop your Fuseki instance
+2. **Stop your Fuseki instance**
 
 3. Go to your <**FUSEKI_DATA_DIR**> 
 and make sure the <**mesh**> directories under datatabases and indexes dirs are empty !
@@ -106,5 +106,3 @@ and make sure the <**mesh**> directories under datatabases and indexes dirs are 
 4. Start your Fuseki instance
 
 5. Start MTW services
-
-    > Note - you can also use Windows Services management
