@@ -55,7 +55,7 @@ Development of MTW has been possible thanks to many other open source projects, 
 
 > Apache Jena/Fuseki requires Java 8 JRE & at least 2-4GB of RAM
 
-1. Follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (\#TBD: Linux - want to help ?) 
+1. Follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (On Linux - follow [README](https://github.com/filak/MTW-MeSH/blob/master/flask-app/README.md)) 
 
 2. [Load MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) into Apache Jena
 
