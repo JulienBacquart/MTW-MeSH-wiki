@@ -118,9 +118,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
 
 6. Customize the **config file** - important values are marked with **!**
      
-    <**MTW_HOME_DIR**>\instance\conf\mtw.ini
+    <**MTW_HOME_DIR**>\instance\conf\mtw-dist.ini
 
-    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw.ini
+    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
 
 7. Create/Set environmental (ENV) variable
 
