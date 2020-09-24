@@ -106,3 +106,5 @@ and make sure the <**mesh**> directories under datatabases and indexes dirs are 
 4. Start your Fuseki instance
 
 5. Start MTW services
+
+## Continue to [MeSH Annual Updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
