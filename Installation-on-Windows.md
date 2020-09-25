@@ -98,7 +98,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
 
           C:\Programs\...\dist   
 
-    - (optional) Application - Arguments - you can change port, threads count and config file:
+    - (optional) Application - Arguments - you can change host, port, threads count and config file:
 
             --config CONFIG    Config file path - default: conf/mtw-dist.ini
             --host HOST        Host - default: 127.0.0.1
