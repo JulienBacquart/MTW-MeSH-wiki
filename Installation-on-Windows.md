@@ -103,6 +103,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
             --config CONFIG    Config file path - default: conf/mtw-dist.ini
             --port PORT        Port number - default: 55930 (server), 55933 (worker)
             --threads THREADS  Number of threads - default: 64
+            --debug            Run in debug mode - DO NOT use in production !
 
 4. Set Admin credentials using **set-mtw-admin.exe** - run:
 
