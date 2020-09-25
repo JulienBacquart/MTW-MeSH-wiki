@@ -101,6 +101,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
     - (optional) Application - Arguments - you can change port, threads count and config file:
 
             --config CONFIG    Config file path - default: conf/mtw-dist.ini
+            --host HOST        Host - default: 127.0.0.1
             --port PORT        Port number - default: 55930 (server), 55933 (worker)
             --threads THREADS  Number of threads - default: 64
             --debug            Run in debug mode - DO NOT use in production !
