@@ -109,8 +109,12 @@ mesh:D018806
 mesh:M0028159 
     mesht:narrowerConcept   meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
 
+# concept props
 meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
-    mesht:preferredTerm   meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
+    mesht:preferredTerm   meshx:b93f1c08-c65a-4a7f-9f02-732518225548
+
+meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
+    mesht:scopeNote   "..."@cs  
 
 meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
     mesht:translatorsNote   "term is used, see e.g. https://www.ncbi.nlm.nih.gov/pubmed/16540951"@en 
@@ -118,13 +122,13 @@ meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48
 meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
     mesht:preferredTerm   meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
 
+# term props
 meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
     mesht:prefLabel   "APACHE IV"@cs 
 
 meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
     mesht:dateCreated "2019-01-11"^^http://www.w3.org/2001/XMLSchema#date 
 
-meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
-    mesht:scopeNote   "..."@cs 
+
 ```
 
