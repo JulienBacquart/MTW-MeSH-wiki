@@ -87,6 +87,9 @@ meshx:3e0d87cf-fe1f-4909-ad4d-905eeaa1c3ae
 meshx:3e0d87cf-fe1f-4909-ad4d-905eeaa1c3ae 
     mesht:dateCreated   "2019-01-16"...
 
+mesh:M000611436 
+    mesht:scopeNote   "Pouzdro tvořené šlachami ... okolo podélné osy."@cs 
+
 ### non-pref term
 mesh:M000611436 
     mesht:term   meshx: 4eb3597d-dc66-498e-924f-77c822ff0c28
