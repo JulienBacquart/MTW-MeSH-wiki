@@ -123,5 +123,8 @@ meshx:b93f1c08-c65a-4a7f-9f02-732518225548
 
 meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
     mesht:dateCreated "2019-01-11"^^http://www.w3.org/2001/XMLSchema#date 
+
+meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
+    mesht:scopeNote   "..."@cs 
 ```
 
