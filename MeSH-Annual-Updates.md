@@ -30,4 +30,4 @@
 
 11. Start MTW Server and MTW Worker services
 
-12. Reset the Initial stats in Manage dashboard
+12. **Reset the Initial stats in Manage dashboard**
