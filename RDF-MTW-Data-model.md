@@ -28,6 +28,8 @@ Language tag is used for non-english literal values ie. @cs
 
 **mesht:dateUpdated** - Term property
 
+**mesht:dateDeleted** - Custom Concept property when deleted
+
 **mesht:historyNote** - Descriptor property
 
 **mesht:identifier** - Term property
