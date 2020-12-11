@@ -52,6 +52,8 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
  
         fuseki-server --version
 
+8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
+
 ## Install SQLite database engine
 
 1. Download SQLite3 binary files at https://www.sqlite.org/download.html
