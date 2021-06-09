@@ -67,7 +67,7 @@ Development of MTW has been possible thanks to many other open source projects, 
 
 * ALWAYS run the web-app behind a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 * ALWAYS use HTTPS
-* The Compare/Diff feature requires server-side connection to http://id.nlm.nih.gov/mesh/sparql
+* The Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
 
 # Production
 
