@@ -1,4 +1,4 @@
-Check MeSH-RDF release notes: https://hhs.github.io/meshrdf/release-notes
+Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 > You can update more often than annually if required - just repeat the steps.
 
