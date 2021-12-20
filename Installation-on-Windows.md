@@ -24,10 +24,10 @@
     Ie.
  
 ```
-setx /M JENAROOT c:\Programs\apache-jena-3.14.0\
-setx /M JENA_HOME c:\Programs\apache-jena-3.14.0\
-setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0\
-setx /M FUSEKI_BASE d:\apache-jena-data\
+setx /M JENAROOT c:\Programs\apache-jena-3.14.0
+setx /M JENA_HOME c:\Programs\apache-jena-3.14.0
+setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0
+setx /M FUSEKI_BASE d:\apache-jena-data
  ```
 
 5. Add to your PATH variable
@@ -42,7 +42,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data\
         
     to (use 4096 MB or more):
         
-        java -Xmx8192M -jar %FUSEKI_HOME%\fuseki-server.jar %*
+        java -Xmx8192M -jar %FUSEKI_HOME%fuseki-server.jar %*
 
 7. Test the installation
 
