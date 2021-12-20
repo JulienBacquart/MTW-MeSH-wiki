@@ -1,5 +1,7 @@
 Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
+Download: https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
+
 > You can update more often than annually if required - just repeat the steps.
 
 1. ALWAYS perform the checks and resolve any issues - ie. duplicates, locks, pending changes etc.
