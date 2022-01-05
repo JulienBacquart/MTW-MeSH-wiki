@@ -1,4 +1,4 @@
-## There are three themes to choose from
+## Themes
 
 * [Slate](https://bootswatch.com/slate/) - dark
 * [Spacelab](https://bootswatch.com/spacelab/) - light
