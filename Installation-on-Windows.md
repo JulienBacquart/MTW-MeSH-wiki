@@ -140,5 +140,4 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
 11. **You need to setup a proxy** on you web server - see the [Deployment](https://github.com/filak/MTW-MeSH/wiki#deployment) instructions 
 
-
-## Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
+Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
