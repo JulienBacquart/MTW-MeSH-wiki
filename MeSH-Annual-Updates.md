@@ -1,13 +1,13 @@
 Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
+> You can update more often than annually if required - just repeat the steps.
+
 Download: https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
 
 Use curl if browser fails:
 
-      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz -O
-      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 -O
-
-> You can update more often than annually if required - just repeat the steps.
+     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 -O 
+     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz -O
 
 1. ALWAYS perform the checks and resolve any issues - ie. duplicates, locks, pending changes etc.
 
