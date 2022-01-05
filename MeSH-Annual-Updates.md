@@ -35,7 +35,7 @@ Use curl if browser fails:
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-10. **Perform steps 4 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#initial-data-loading)
+10. **Perform steps 5 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#initial-data-loading)
 
 11. Clear the MTW cache - delete all files in *instance/cache*
 
