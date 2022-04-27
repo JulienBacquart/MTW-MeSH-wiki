@@ -64,7 +64,6 @@ Language tag is used for non-english literal values ie. @cs
 
 ### Translated preferrered term 
 
-(extracted from czedesc2019.xml)
 ```
 mesh:M0025841 
     mesht:preferredTerm   meshx:cze0019091
