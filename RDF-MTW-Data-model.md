@@ -5,7 +5,7 @@ PREFIX **text:** \<http\://jena.apache.org/text#>
 
 PREFIX **meshx:** \<configurable for each target language>
 - identifiers used for Terms & custom Concepts URIs
-- values can be either MESH DUI/CUI or uuid.uuid4()
+- values can be either MESH DUI/CUI/TermID or uuid.uuid4()
 
 PREFIX **mesht:** \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
