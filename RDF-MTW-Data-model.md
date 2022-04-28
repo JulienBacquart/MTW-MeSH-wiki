@@ -4,8 +4,8 @@ PREFIX **text:** \<http\://jena.apache.org/text#>
 - required by [Jena Full Text search](https://jena.apache.org/documentation/query/text-query.html)
 
 PREFIX **meshx:** \<configurable for each target language>
-- used for Terms & custom Concepts URIs
-- value is uuid.uuid4()
+- identifiers used for Terms & custom Concepts URIs
+- values can be either MESH DUI/CUI or uuid.uuid4()
 
 PREFIX **mesht:** \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
