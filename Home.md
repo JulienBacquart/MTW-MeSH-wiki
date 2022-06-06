@@ -11,10 +11,10 @@ NLM has abandoned its *MeSH Translation Maintenance System* (MTMS) by the end of
 ## Advantages of using RDF data for MeSH translation
 
 * implementation of MeSH complex structures & relations without tables/schemas mapping
-* SPARQL endpoint for data access 
+* SPARQL endpoint for data access and updates
 * ability to extend the official data model
 ([custom namespaces for the translations](https://github.com/filak/MTW-MeSH/wiki/RDF-MTW-Data-model)) 
-* efficient handling of data updates
+* efficient handling of the annual data updates
 * possibility to publish the translation as linked data
 
 
