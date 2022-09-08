@@ -33,7 +33,7 @@ Language tag is used for non-english literal values ie. @cs
 **mesht:historyNote** - Descriptor property
 
 **mesht:identifier** - Term property
-- only retained from XML
+- kept for the archiving purpose (retained from the original MESH XML dataset) 
 - not used with newly translated terms as this identifier is optional in UMLS TSV spec
 - might be generated in future if required - #TBD
 
