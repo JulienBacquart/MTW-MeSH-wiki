@@ -14,7 +14,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     <**FUSEKI_DATA_DIR**>\configuration\
           
-## Initial data loading ##
+## Initial data loading - OBSOLETE ##
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
