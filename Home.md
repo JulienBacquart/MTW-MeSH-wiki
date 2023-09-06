@@ -29,25 +29,25 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 ## MTW features
 
 * MeSH tree browsing & filtering
-* full text searching with *, ? and phrase "" and boolean support
+* fulltext searching with *, ? and phrase "" and boolean support
 * statistics & todo lists, clipboard
 * compare & diff descriptor versions
 * custom concepts support
 * complete audit & changes approval
 * reporting & user management
 * user roles based workflow: viewer, contributor, editor, manager
-* duplicate terms check
-* exports to UMLS TSV, JSON, XML, MARC21
+* duplicate terms checking & other data consistency checks
+* exports to UMLS TSV, JSON, XML, MARC21 etc.
 
 ## MTW Stack
 
-Development of MTW has been possible thanks to many other open source projects, notably:
+Development of MTW has been possible thanks to many open source projects, notably:
 
 * Apache Jena & Fuseki
 * Flask & Jinja2 & Waitress
 * Bootstrap & Bootswatch
 * SQLite
-* Apache HTTP server 2.4+ 
+* Apache HTTP server
 
 # Getting started
 
