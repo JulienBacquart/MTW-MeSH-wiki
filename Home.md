@@ -19,8 +19,7 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 
 ## Design goals
 
-* web application
-* no proprietary software/components - open source stack
+* web application with no proprietary software or components - open source stack
 * no special hardware - app running even on a PC/laptop
 * cross-platform portability (though developed on Windows)
 * easy datasets management - updates, backups, migrations
