@@ -26,7 +26,7 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 * basic approval process/workflow
 * clean and intuitive interface - see some [screenshots](https://github.com/filak/MTW-MeSH/wiki/ScreenShots)
 
-## MTW features
+## Features
 
 * MeSH tree browsing & filtering
 * fulltext searching with *, ? and phrase "" and boolean support
@@ -39,7 +39,7 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 * duplicate terms checking & other data consistency checks
 * exports to UMLS TSV, JSON, XML, MARC21 etc.
 
-## MTW Stack
+## Stack
 
 Development of MTW has been possible thanks to many open source projects, notably:
 
