@@ -6,8 +6,8 @@ Download: https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
 
 Use curl if browser fails:
 
-     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 -O 
-     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz -O
+     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 --ssl-no-revoke -O 
+     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
 
 1. ALWAYS perform the checks and resolve any issues - ie. duplicates, locks, pending changes etc.
 
