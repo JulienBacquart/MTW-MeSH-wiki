@@ -9,7 +9,7 @@ Use curl if browser fails:
      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 --ssl-no-revoke -O 
      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
 
-1. ALWAYS perform the checks and resolve any issues - ie. duplicates, locks, pending changes etc.
+1. ALWAYS perform the checks and resolve any issues in MTW - ie. duplicates, locks, pending changes etc.
 
 2. Export required datasets from MTW - ie. UMLS TSV, MARC etc.
 
