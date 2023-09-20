@@ -1,6 +1,6 @@
-## Before initial data loading ##
+## Before any data loading ##
 
-Set up a Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl
+Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl **MUST BE** set up properly ! 
 
 https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
