@@ -14,7 +14,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     <**FUSEKI_DATA_DIR**>\configuration\
           
-## Initial data loading - OBSOLETE ##
+## Create import dataset - OBSOLETE ##
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
@@ -49,7 +49,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     No output = data is OK
 
-4. Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/)
+## Get MeSH official dataset ##
+
+Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/)
    and validate the file - run:
     
         riot --validate mesh.nt.gz
@@ -58,9 +60,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 ## Data import ##
 
-5. Move the file(s) for import into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
+1. Move the file(s) for import into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
 
-6. Load the MeSH datatset(s) into Apache Jena
+2. Load the MeSH datatset(s) into Apache Jena
 
     **Stop Fuseki server instance (if running)**
     
@@ -78,7 +80,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
     
         tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh mesh.nt.gz
 
-7. Create Fuseki search index
+3. Create Fuseki search index
    
     Go to your <**FUSEKI_DATA_DIR**>
    
@@ -86,7 +88,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
     
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
     
-8. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
+4. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
 
 ## Loading data from a backup ##
 
