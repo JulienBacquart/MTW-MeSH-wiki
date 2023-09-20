@@ -27,18 +27,16 @@ Use curl if browser fails:
 
 6. **Stop MTW Server and MTW Worker services**
 
-7. **Stop Fuseki server instance (if running)**
+7. Go to your <**FUSEKI_DATA_DIR**> and DELETE the <**mesh**> directories under datatabases and indexes dirs
 
-8. Go to your <**FUSEKI_DATA_DIR**> and DELETE the <**mesh**> directories under datatabases and indexes dirs
-
-9. **Update MTW config file**  for new target year/period
+8. **Update MTW config file**  for new target year/period
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-10. **Perform steps 5 to 8** in [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#initial-data-loading)
+9. Follow the steps in [Loading MeSH datasets - Data import](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#data-import)
 
-11. Clear the MTW cache - delete all files in *instance/cache*
+10. Clear the MTW cache - delete all files in *instance/cache*
 
-12. Start MTW Server and MTW Worker services
+11. Start MTW Server and MTW Worker services
 
-13. **Reset the Initial stats in Manage dashboard**
+12. **Reset the Initial stats in Manage dashboard**
