@@ -19,4 +19,4 @@
     
     http://localhost:3030
 
-> The server needs to "warm-up" - load data into memory - which might take up to 10 minutes
+> The server needs to "warm-up" - load data into memory - which might take up to 5-10 minutes
