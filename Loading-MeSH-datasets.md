@@ -59,7 +59,7 @@ No output = data is OK
 
 ## Data import ##
 
-1. Move the file(s) for import into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
+1. Move the import file(s) into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
 
 2. Load the MeSH datatset(s) into Apache Jena
 
