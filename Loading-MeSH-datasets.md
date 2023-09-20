@@ -14,7 +14,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     <**FUSEKI_DATA_DIR**>\configuration\
           
-## Create import dataset - OBSOLETE ##
+## Create translation dataset from the official XML files - OBSOLETE ##
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
@@ -51,12 +51,11 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 ## Get MeSH official dataset ##
 
-Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/)
-   and validate the file - run:
+Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) and validate the file - run:
     
         riot --validate mesh.nt.gz
 
-    No output = data is OK
+No output = data is OK
 
 ## Data import ##
 
