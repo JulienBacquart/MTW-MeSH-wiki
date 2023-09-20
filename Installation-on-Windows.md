@@ -1,6 +1,6 @@
 ## Install Java 8
 
-* Apache Jena/Fuseki requires Java 8 - https://adoptopenjdk.net/
+* Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
 
 * Test the installation - open Command prompt and run:
 
@@ -78,7 +78,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
 ## Install MTW-Server and MTW-Worker as Windows service
 
-1. Download distribution file **MTW-vX.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
+1. Download distribution file **MTW-X.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
 
 2. Unpack dist file to <**MTW_HOME_DIR**>
 
