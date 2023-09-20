@@ -8,7 +8,7 @@
 
 ## Install Apache Jena/Fuseki 3.9
 
-> Using the version 4 under investigation...
+> Using the version 4 is probably possible but it has not been tested yet.
 
 1. Download Jena and Fuseki binary files at https://archive.apache.org/dist/jena/binaries/
 
