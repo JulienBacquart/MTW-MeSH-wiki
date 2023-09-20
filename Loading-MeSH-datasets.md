@@ -31,7 +31,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 2. Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx** tool
   
-    Run:
+    Run the extraction script:
     
         mesh-xml2trx *.xml.gz <TARGET_NS>
 
@@ -57,7 +57,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.ni
 
 0. **ALWAYS validate the input files**
 
-    Run:
+    Run the validation:
         
         riot --validate mesh.nt.gz
 
@@ -73,7 +73,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.ni
     
     Go to your <**IMPORT**> directory
     
-    Run:
+    Run the import:
         
         tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh mesh.nt.gz mesh-trx_YYYY-MM-DD.nt.gz ...
     
@@ -89,7 +89,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.ni
    
     Go to your <**FUSEKI_DATA_DIR**>
    
-    Run:
+    Run the indexation:
     
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
     
@@ -104,11 +104,11 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.ni
 3. Go to your <**FUSEKI_DATA_DIR**> 
 and make sure the <**mesh**> directories under datatabases and indexes dirs are empty !
 
-    Run import: 
+    Run the import: 
 
         tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
 
-    Create the search index:
+    Create the search index - run:
 
         java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
 
