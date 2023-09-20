@@ -14,7 +14,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     <**FUSEKI_DATA_DIR**>\configuration\
           
-## Create translation dataset from the official XML files - OBSOLETE ##
+## Get the translation RDF dataset ##
+
+### Using the official MTMS XML file - OBSOLETE ###
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
@@ -41,25 +43,23 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
     
         mesh-xml2trx czedesc2018.xml.gz http://mesh.medvik.cz/link/
 
-3. **ALWAYS validate the output file**
-    
+## Get the official MeSH RDF dataset ##
+
+Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) 
+
+## Import the RDF datasets ##
+
+0. **ALWAYS validate the input files**
+
     Run:
         
+        riot --validate mesh.nt.gz
+
         riot --validate mesh-trx_YYYY-MM-DD.nt.gz
 
     No output = data is OK
 
-## Get the official MeSH RDF dataset ##
-
-Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) and validate the file - run:
-    
-        riot --validate mesh.nt.gz
-
-No output = data is OK
-
-## Data import ##
-
-1. Move the import file(s) into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
+1. Move the input files into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
 
 2. Load the MeSH datatset(s) into Apache Jena
 
