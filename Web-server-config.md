@@ -1,6 +1,6 @@
 # Examples #
 
-> **Always copy** the static content from *static* folder to *home/htdocs/assets-mtw* folder
+> In production: Always copy the static content from *static* folder to *home/htdocs/assets-mtw* folder.
 
 ## Caddy Server ##
 
