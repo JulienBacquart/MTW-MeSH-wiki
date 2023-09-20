@@ -16,7 +16,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
           
 ## Get the translation RDF dataset ##
 
-### Using the official MTMS XML file - OBSOLETE ###
+### Convert the official MTMS XML file - OBSOLETE ###
 
 > If you have not translated MeSH before - you can proceed to step 4.
 
@@ -42,6 +42,12 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
     ie.
     
         mesh-xml2trx czedesc2018.xml.gz http://mesh.medvik.cz/link/
+
+### Convert the official UMLS TSV file ###
+
+**trans_only_YYYY.txt**
+
+> #TBD
 
 ## Get the official MeSH RDF dataset ##
 
