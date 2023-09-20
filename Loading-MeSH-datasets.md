@@ -56,7 +56,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     No output = data is OK
 
-5. Move the file(s) into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
+## Data import ##
+
+5. Move the file(s) for import into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
 
 6. Load the MeSH datatset(s) into Apache Jena
 
