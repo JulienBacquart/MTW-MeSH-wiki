@@ -49,7 +49,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
     No output = data is OK
 
-## Get MeSH official dataset ##
+## Get the official MeSH RDF dataset ##
 
 Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) and validate the file - run:
     
