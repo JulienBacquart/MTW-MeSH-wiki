@@ -6,9 +6,9 @@
 
         java -version
 
-## Install Apache Jena/Fuseki 3.9
+## Install Apache Jena/Fuseki 3.17.0
 
-> Using the version 4 is probably possible but it has not been tested yet.
+> Using the versions 3.2+ is probably possible but it has not been tested yet. Versions 4+ need to be tested too.
 
 1. Download Jena and Fuseki binary files at https://archive.apache.org/dist/jena/binaries/
 
