@@ -2,27 +2,9 @@
 
 > Always copy the contents of the *static* dir to *home/htdocs/assets-mtw* and keep the dirs in sync when upgrading MTW !
 
-## Caddy Server ##
-
-```
-mtw.example.com:443 {
-    root home/htdocs
-    log / logs/mtw-access.txt "{remote} - {user} [{when}] \"{method} {uri} {proto}\" {status} {size}"
-    errors logs/mtw-error.txt
-    ## development only:
-    tls self_signed
-    ## production ie.:
-    # tls certs/crt.txt certs/key.txt
-    gzip
-    proxy /mtw localhost:55930 {
-        transparent
-        keepalive 0
-    }
-}
-
-```
-
 ## Apache HTTP Server ##
+
+> Production
 
 ```
 <VirtualHost *:443>
@@ -49,3 +31,29 @@ mtw.example.com:443 {
 </VirtualHost>
 
 ```
+
+## Caddy Server v1 ##
+
+> Testing
+
+https://github.com/caddyserver/caddy/releases/tag/v1.0.4
+
+```
+mtw.example.com:443 {
+    root home/htdocs
+    log / logs/mtw-access.txt "{remote} - {user} [{when}] \"{method} {uri} {proto}\" {status} {size}"
+    errors logs/mtw-error.txt
+    ## development only:
+    tls self_signed
+    ## production ie.:
+    # tls certs/crt.txt certs/key.txt
+    gzip
+    proxy /mtw localhost:55930 {
+        transparent
+        keepalive 0
+    }
+}
+
+```
+
+
