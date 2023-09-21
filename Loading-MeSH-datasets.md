@@ -16,7 +16,11 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 ## Get the official MeSH RDF dataset ##
 
-Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) 
+Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
+
+> You might use curl for downloading
+
+    curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -o mesh.nt.gz
           
 ## Get the translation RDF dataset ##
 
