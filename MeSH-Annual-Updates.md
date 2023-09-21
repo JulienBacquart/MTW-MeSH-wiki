@@ -2,41 +2,37 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 > You can update more often than annually if required - just repeat the steps.
 
-Download: https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
+1. Download the official MeSH RDF dataset https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#get-the-official-mesh-rdf-dataset
 
-> Use curl if browser fails:
+2. **ALWAYS** perform the checks and resolve any issues in MTW - ie. duplicates, locks, pending changes etc.
 
-     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 --ssl-no-revoke -O 
-     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
+3. **Export required output files from MTW** - ie. UMLS TSV, MARC, stats etc.
 
-1. **ALWAYS** perform the checks and resolve any issues in MTW - ie. duplicates, locks, pending changes etc.
+4. **BACKUP** your <**mesh**> dataset using Fuseki interface
 
-2. **Export required output files from MTW** - ie. UMLS TSV, MARC, stats etc.
-
-3. **BACKUP** your <**mesh**> dataset using Fuseki interface
-
-4. Validate the backup - run:
+5. Validate the backup and the official MeSH RDF dataset - run:
     
         riot --validate mesh_YYYY-MM-DD_....nt.gz
+        riot --validate mesh.nt.gz
 
    No output = data is OK
 
-5. Extract the translation from the backup using **mesh-nt2trx** tool - run:
+6. Extract the translation from the backup using **mesh-nt2trx** tool - run:
     
         mesh-nt2trx %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
 
-6. **Stop MTW Server and MTW Worker services**
+7. **Stop MTW Server and MTW Worker services**
 
-7. Go to your <**FUSEKI_DATA_DIR**> and DELETE the <**mesh**> directories under datatabases and indexes dirs
+8. Go to your <**FUSEKI_DATA_DIR**> and DELETE the <**mesh**> directories under datatabases and indexes dirs
 
-8. **Update MTW config file**  for new target year/period
+9. **Update MTW config file**  for new target year/period
 
     <MTW_HOME_DIR>\instance\conf\mtw.ini 
 
-9. Follow the steps in [Import the RDF datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#import-the-rdf-datasets)
+10. Follow the steps in [Import the RDF datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#import-the-rdf-datasets)
 
-10. Clear the MTW cache - delete all files in *instance/cache*
+11. Clear the MTW cache - delete all files in *instance/cache*
 
-11. Start MTW Server and MTW Worker services
+12. Start MTW Server and MTW Worker services
 
-12. **Reset the Initial stats in Manage dashboard**
+13. **Reset the Initial stats in Manage dashboard**
