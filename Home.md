@@ -57,13 +57,13 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 3. [Run Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
-4. Enjoy MTW http://localhost:55930/mtw
+4. Setup a web server with a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
+
+5. Start MTW services & Enjoy MTW at https://<HOST_LINK>/mtw
 
 # Deployment
 
-* ALWAYS run MTW app behind a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
-* ALWAYS use HTTPS
-* The Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
+* The MTW Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
 
 # Production
 
