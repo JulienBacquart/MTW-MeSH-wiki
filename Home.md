@@ -61,12 +61,9 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 5. Start MTW services & Enjoy MTW at https://<HOST_LINK>/mtw
 
-# Deployment
+# Deployment & Production
 
 * The MTW Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
-
-# Production
-
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
 * Backups
     - for Jena data use Fuseki GUI or [command](https://jena.apache.org/documentation/fuseki2/fuseki-server-protocol.html)
