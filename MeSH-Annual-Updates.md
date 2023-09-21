@@ -4,7 +4,7 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 Download: https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
 
-Use curl if browser fails:
+> Use curl if browser fails:
 
      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz.sha1 --ssl-no-revoke -O 
      curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
