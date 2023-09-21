@@ -13,12 +13,16 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 * Copy mesh.ttl file to:
 
     <**FUSEKI_DATA_DIR**>\configuration\
+
+## Get the official MeSH RDF dataset ##
+
+Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) 
           
 ## Get the translation RDF dataset ##
 
 ### Convert the official MTMS XML file - OBSOLETE ###
 
-> If you have not translated MeSH before - you can proceed to step 4.
+> If you have not translated MeSH before - you can proceed to [Import](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets/_edit#import-the-rdf-datasets).
 
 
 1. Download your ***.xml.gz** translation file at
@@ -49,9 +53,6 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 > #TBD
 
-## Get the official MeSH RDF dataset ##
-
-Download the official MeSH RDF dataset **mesh.nt.gz** at [https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/](https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/) 
 
 ## Import the RDF datasets ##
 
