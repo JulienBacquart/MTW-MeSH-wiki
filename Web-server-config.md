@@ -1,6 +1,6 @@
 # Examples #
 
-> Always copy the contents of the *static* folder to *home/htdocs/assets-mtw* folder.
+> Always copy the contents of the *static* dir to *home/htdocs/assets-mtw* and keep the dirs in sync when upgrading MTW !
 
 ## Caddy Server ##
 
