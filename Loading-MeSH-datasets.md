@@ -24,10 +24,9 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
           
 ## Get the translation RDF dataset ##
 
-### Convert the official MTMS XML file - OBSOLETE ###
-
 > If you have not translated MeSH before - you can proceed to [Import](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets/_edit#import-the-rdf-datasets).
 
+### Convert the official MTMS XML file - OBSOLETE ###
 
 1. Download your ***.xml.gz** translation file at
     
