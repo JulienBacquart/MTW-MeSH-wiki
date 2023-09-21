@@ -43,11 +43,11 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 
 Development of MTW has been possible thanks to many open source projects, notably:
 
-* Apache Jena & Fuseki
-* Flask & Jinja2 & Waitress
-* Bootstrap & Bootswatch
-* SQLite
-* Apache HTTP server
+* SPARQL server: Apache Jena Fuseki
+* Web framework: Flask & Jinja2
+* WSGI server:   Waitress
+* Frontend: Bootstrap & Bootswatch
+* Database: SQLite
 
 # Getting started
 
@@ -61,7 +61,7 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 # Deployment
 
-* ALWAYS run the web-app behind a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
+* ALWAYS run MTW app behind a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 * ALWAYS use HTTPS
 * The Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
 
@@ -75,14 +75,14 @@ Development of MTW has been possible thanks to many open source projects, notabl
     - **backup regularly and store the backup files safely**
     - [loading dataset from backup](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) 
 * MTW Upgrades
-    - download the newest [release](https://github.com/filak/MTW-MeSH/releases/latest) MTW-vX.Y.Z
+    - download the newest [release](https://github.com/filak/MTW-MeSH/releases/latest) MTW-X.Y.Z
     - check the release notes on breaking changes (if any)
     - stop the MTW services 
     - **backup <MTW_HOME_DIR> directory** 
     - rewrite binaries and static, templates, tools dirs in <MTW_HOME_DIR> 
     - start the services
 * Apache Jena/Fuseki upgrades
-    - do not reuse old data - always make last backup to [restore](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) in new version  
+    - do not reuse old data - always make last backup to [restore](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) as new version  
 * Manual/FAQ \#TBD... 
 
 # Support
