@@ -1,7 +1,5 @@
 Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
-> You can update more often than annually if required - just repeat the steps.
-
 1. Download the official MeSH RDF dataset https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#get-the-official-mesh-rdf-dataset
 
 2. **ALWAYS** perform the checks and resolve any issues in MTW - ie. duplicates, locks, pending changes etc.
