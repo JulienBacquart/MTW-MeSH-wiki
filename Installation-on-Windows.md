@@ -26,9 +26,9 @@
     Ie.
  
 ```
-setx /M JENAROOT c:\Programs\apache-jena-3.14.0
-setx /M JENA_HOME c:\Programs\apache-jena-3.14.0
-setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.14.0
+setx /M JENAROOT c:\Programs\apache-jena-3.17.0
+setx /M JENA_HOME c:\Programs\apache-jena-3.17.0
+setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-3.17.0
 setx /M FUSEKI_BASE d:\apache-jena-data
  ```
 
