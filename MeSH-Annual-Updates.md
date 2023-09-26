@@ -17,7 +17,7 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 6. Extract the translation from the backup using **mesh-nt2trx** tool - run:
     
-        mesh-nt2trx %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
+        mesh-nt2trx %FUSEKI_BASE%/backups/mesh_YYYY-MM-DD_....nq.gz
 
 7. **Stop MTW Server and MTW Worker services**
 
@@ -25,7 +25,7 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 9. **Update MTW config file**  for new target year/period
 
-    <MTW_HOME_DIR>\instance\conf\mtw.ini 
+    <MTW_HOME_DIR>/instance/conf/mtw.ini 
 
 10. Follow the steps in [Import the RDF datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#import-the-rdf-datasets)
 
