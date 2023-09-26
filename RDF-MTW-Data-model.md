@@ -106,31 +106,46 @@ meshx:4eb3597d-dc66-498e-924f-77c822ff0c28
     mesht:dateCreated   "2019-01-16"...
 ```
 
-### Custom concept
+### Custom concept for D018153 "Czech Republic" 
 ```
-mesh:D018806 
-    mesht:concept   meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
+mesh:D018153
+    mesht:concept   meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd 
 
-mesh:M0028159 
-    mesht:narrowerConcept   meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
+mesh:M0027363
+    mesht:narrowerConcept   meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
 
 # concept props
-meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
-    mesht:preferredTerm   meshx:b93f1c08-c65a-4a7f-9f02-732518225548
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
+    mesht:identifier   "F20210002"
 
-meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
-    mesht:scopeNote   "..."@cs  
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
+    mesht:scopeNote   "Krátká forma (úřední) názvu České republiky."@cs
+ 
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd	
+    mesht:scopeNote   "Short form name (official) of the Czech Republic."@en 
 
-meshx:98ac2cab-5ca2-454d-b304-cfd8c4eefe48 
-    mesht:translatorsNote   "term is used, see e.g. https://www.ncbi.nlm.nih.gov/pubmed/16540951"@en 
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
+    mesht:translatorsNote   "[justification for the Custom concept] Short form name (official) of the Czech Republic."@en
+
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
+    mesht:preferredTerm   meshx:5e1bb9ea-68ca-4848-b1af-bd5d4ca3eabf
+
+meshx:4ffb2f83-16fe-4e6e-88d1-58aaa32306fd
+    mesht:term   meshx:55792212-383e-47da-b0dd-5655543ae476
+
+# preferred term props
+meshx:5e1bb9ea-68ca-4848-b1af-bd5d4ca3eabf
+    mesht:prefLabel   "Česko"@cs 
+
+meshx:5e1bb9ea-68ca-4848-b1af-bd5d4ca3eabf
+    mesht:dateCreated "2019-11-22"^^http://www.w3.org/2001/XMLSchema#date 
 
 # term props
-meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
-    mesht:prefLabel   "APACHE IV"@cs 
+meshx:55792212-383e-47da-b0dd-5655543ae476
+    mesht:prefLabel   "Czechia"@cs 
 
-meshx:b93f1c08-c65a-4a7f-9f02-732518225548 
-    mesht:dateCreated "2019-01-11"^^http://www.w3.org/2001/XMLSchema#date 
-
+meshx:55792212-383e-47da-b0dd-5655543ae476
+    mesht:dateCreated "2019-11-22"^^http://www.w3.org/2001/XMLSchema#date 
 
 ```
 
