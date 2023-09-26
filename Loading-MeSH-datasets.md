@@ -20,7 +20,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
 > You might use curl for downloading
 
-    curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke
+    curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
           
 ## Get the translation RDF dataset ##
 
