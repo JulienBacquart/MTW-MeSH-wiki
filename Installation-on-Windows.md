@@ -10,8 +10,8 @@
 
 1. Download Jena and Fuseki binary files https://jena.apache.org/download/index.cgi
 
-- Apache Jena Fuseki
-- Apache Jena libraries
+- Apache Jena Fuseki - ie. apache-jena-fuseki-4.9.0.zip
+- Apache Jena libraries - ie. apache-jena-4.9.0.zip
 
 2. Unpack the distribution files to <**JENA_HOME_DIR**>, <**FUSEKI_HOME_DIR**>
 
