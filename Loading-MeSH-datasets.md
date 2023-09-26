@@ -1,6 +1,6 @@
 ## Before any data loading ##
 
-Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl **MUST BE** set up properly ! 
+Jena assembler config file <**MTW_HOME_DIR**>/instance/conf/mesh.ttl **MUST BE** set up properly ! 
 
 https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
@@ -12,7 +12,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 * Copy mesh.ttl file to:
 
-    <**FUSEKI_DATA_DIR**>\configuration\
+    <**FUSEKI_DATA_DIR**>/configuration/
 
 ## Get the official MeSH RDF dataset ##
 
@@ -69,7 +69,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
     No output = data is OK
 
-1. Move the input files into a versioned <**IMPORT**> directory ie.  ...\MeSH-data\2019-1\import\
+1. Move the input files into a versioned <**IMPORT**> directory ie.  .../MeSH-data/2019-1/import/
 
 2. Load the MeSH datatset(s) into Apache Jena
 
@@ -79,15 +79,15 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
     
     Run the import:
         
-        tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh mesh.nt.gz mesh-trx_YYYY-MM-DD.nt.gz ...
+        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz mesh-trx_YYYY-MM-DD.nt.gz ...
     
     ie:
     
-        tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh mesh.nt.gz mesh-trx_2018-12-19.nt.gz
+        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz mesh-trx_2018-12-19.nt.gz
     
     or if you do not have a translation then just:
     
-        tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh mesh.nt.gz
+        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz
 
 3. Create Fuseki search index
    
@@ -95,7 +95,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
    
     Run the indexation:
     
-        java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
+        java -cp %FUSEKI_HOME%/fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
     
 4. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
 
@@ -110,11 +110,11 @@ and make sure the <**mesh**> directories under datatabases and indexes dirs are 
 
     Run the import: 
 
-        tdb2_tdbloader --loc %FUSEKI_BASE%\databases\mesh %FUSEKI_BASE%\backups\mesh_YYYY-MM-DD_....nq.gz
+        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh %FUSEKI_BASE%/backups/mesh_YYYY-MM-DD_....nq.gz
 
     Create the search index - run:
 
-        java -cp %FUSEKI_HOME%\fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
+        java -cp %FUSEKI_HOME%/fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
 
 4. Start your Fuseki instance
 
