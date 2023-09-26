@@ -53,7 +53,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
     Go to your <**FUSEKI_DATA_DIR**>
 
-    open **CMD** and run:
+    - open **CMD** and run:
  
          jena_version.bat
 
@@ -74,6 +74,10 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 3. Create/Set environmental (ENV) variable
 
     SQLITE_HOME  <SQLITE_HOME_DIR>
+
+    Open **CMD** and run:
+
+        setx /M SQLITE_HOME C:\Programs\sqlite3      
 
 4. Add to your PATH variable
 
@@ -137,9 +141,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
     MTW_HOME  <MTW_HOME_DIR>
 
-    Open **CMD** and run
+    Open **CMD** and run:
 
-        setx /M MTW_HOME C:\Programs\...\dist\  
+        setx /M MTW_HOME C:\Programs\...\dist  
 
 8. Add to your PATH variable
 
