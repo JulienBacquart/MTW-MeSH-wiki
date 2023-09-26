@@ -26,7 +26,7 @@
     FUSEKI_HOME  <FUSEKI_HOME_DIR>    
     FUSEKI_BASE  <FUSEKI_DATA_DIR>
    
-    Ie. run in **CMD**:
+    - open **CMD** and run:
  
 ```
 setx /M JENAROOT c:\Programs\apache-jena-4.9.0
@@ -55,9 +55,11 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
     - open **CMD** and run:
  
+```
          jena_version.bat
 
          fuseki-server --version
+```
 
 8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
 
