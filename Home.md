@@ -80,11 +80,12 @@ Development of MTW has been possible thanks to many open source projects, notabl
     - start the MTW services
 * Apache Jena/Fuseki upgrades
     - do not reuse old data - always use the last backup to [restore](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) in the new Jena version instance 
-* Manual/FAQ \#TBD... 
 
 # Support
 
 Please use the [Issues](https://github.com/filak/MTW-MeSH/issues).
+
+* Manual/FAQ \#TBD... 
 
 # License
 
