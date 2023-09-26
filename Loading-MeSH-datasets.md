@@ -4,11 +4,11 @@ Jena assembler config file <**MTW_HOME_DIR**>\instance\conf\mesh.ttl **MUST BE**
 
 https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
-* Adjust paths "c:/Data/mesh-mtw/apache-jena-data" in mesh.ttl to your <**FUSEKI_DATA_DIR**>
+* Adjust the path "d:/apache-jena-data/" in mesh.ttl to your <**FUSEKI_DATA_DIR**>
 
-        tdb2:location  "c:/Data/mesh-mtw/apache-jena-data/databases/mesh" ;
+        tdb2:location  "c:/<FUSEKI_DATA_DIR>/databases/mesh" ;
 
-        text:directory "c:/Data/mesh-mtw/apache-jena-data/indexes/mesh" ;
+        text:directory "c:/<FUSEKI_DATA_DIR>/indexes/mesh" ;
 
 * Copy mesh.ttl file to:
 
