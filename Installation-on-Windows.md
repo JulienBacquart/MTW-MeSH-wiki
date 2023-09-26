@@ -2,7 +2,9 @@
 
 * Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
 
-* Test the installation - open Command prompt and run:
+> Command prompt = **CMD**
+
+* Test the installation - open **CMD** and run:
 
         java -version
 
@@ -24,7 +26,7 @@
     FUSEKI_HOME  <FUSEKI_HOME_DIR>    
     FUSEKI_BASE  <FUSEKI_DATA_DIR>
    
-    Ie.
+    Ie. run in **CMD**:
  
 ```
 setx /M JENAROOT c:\Programs\apache-jena-4.9.0
@@ -51,9 +53,11 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
     Go to your <**FUSEKI_DATA_DIR**>
 
-    open Command prompt and run:
+    open **CMD** and run:
  
-        fuseki-server --version
+         jena_version.bat
+
+         fuseki-server --version
 
 8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
 
@@ -89,9 +93,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
     Install [NSSM](https://nssm.cc) service manager
     
-    Go to your <**MTW_HOME_DIR**> and run for both server and worker:
+    Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
 
-          $ nssm install <SERVICE_NAME>-<PORT>
+          nssm install <SERVICE_NAME>-<PORT>
         
     - Application - Path - select the EXE file ie.:
 
@@ -111,7 +115,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
             --threads THREADS  Number of threads - default: 64
             --debug            Run in debug mode - DO NOT use in production !
 
-4. Set Admin credentials using **set-mtw-admin.exe** - run:
+4. Set Admin credentials using **set-mtw-admin.exe** - open **CMD** and run:
 
         set-mtw-admin --login <YOUR_ADMIN_LOGIN> --pwd <YOUR_ADMIN_PASSWORD>
 
@@ -119,7 +123,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
     
     Go to  <**MTW_HOME_DIR**>\instance\db
     
-    Run:
+    Open **CMD** and run:
 
         sqlite3 mtw.db < mtw_schema.sql
 
@@ -132,6 +136,8 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 7. Create/Set environmental (ENV) variable
 
     MTW_HOME  <MTW_HOME_DIR>
+
+        setx /M MTW_HOME C:\Programs\...\dist\  
 
 8. Add to your PATH variable
 
