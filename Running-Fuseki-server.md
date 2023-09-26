@@ -13,7 +13,7 @@
     Set:
     - Path:   java
     - Startup dir:   %FUSEKI_BASE%
-    - Arguments:   -Xmx8192M -jar %FUSEKI_HOME%\fuseki-server.jar --localhost
+    - Arguments:   -Xmx8192M -jar %FUSEKI_HOME%/fuseki-server.jar --localhost
    
 * Check if the server is running:
     
