@@ -1,8 +1,8 @@
+> Command prompt = **CMD**
+
 ## Install Java 8
 
 * Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
-
-> Command prompt = **CMD**
 
 * Test the installation - open **CMD** and run:
 
@@ -79,7 +79,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 
         ;%SQLITE_HOME%
 
-5. Test the installation - open Command prompt and run:
+5. Test the installation - open **CMD** and run:
 
         sqlite3 --version
 
@@ -136,6 +136,8 @@ setx /M FUSEKI_BASE d:\apache-jena-data
 7. Create/Set environmental (ENV) variable
 
     MTW_HOME  <MTW_HOME_DIR>
+
+    Open **CMD** and run
 
         setx /M MTW_HOME C:\Programs\...\dist\  
 
