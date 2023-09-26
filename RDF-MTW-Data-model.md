@@ -11,7 +11,7 @@ PREFIX **mesht:** \<http\://www.medvik.cz/schema/mesh/vocab/#>
 
 See [mesh.ttl](https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl)
 
-## mesht: Predicates
+## Predicates
 
 Language tag is used for non-english literal values ie. @cs
 
