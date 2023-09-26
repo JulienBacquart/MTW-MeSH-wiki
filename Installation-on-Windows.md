@@ -56,9 +56,9 @@ setx /M FUSEKI_BASE d:\apache-jena-data
     - open **CMD** and run:
  
 ```
-         jena_version.bat
+jena_version.bat
 
-         fuseki-server --version
+fuseki-server --version
 ```
 
 8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
