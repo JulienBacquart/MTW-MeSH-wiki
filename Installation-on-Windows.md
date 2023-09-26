@@ -33,11 +33,11 @@ setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-4.9.0
 setx /M FUSEKI_BASE d:\apache-jena-data
  ```
 
-5. Add to your PATH variable
+5. Add to your **PATH** variable
 
         ;%JENA_HOME%\bat;%FUSEKI_HOME%
 
-6. Modify fuseki-server.bat in your <FUSEKI_HOME_DIR>
+6. Modify **fuseki-server.bat** in your <FUSEKI_HOME_DIR>
 
     Change:
       
