@@ -6,11 +6,12 @@
 
         java -version
 
-## Install Apache Jena/Fuseki 3.17.0
+## Install Apache Jena/Fuseki
 
-> Using the versions 3.2+ is probably possible but it has not been tested yet. Versions 4+ need to be tested too.
+1. Download Jena and Fuseki binary files https://jena.apache.org/download/index.cgi
 
-1. Download Jena and Fuseki binary files at https://archive.apache.org/dist/jena/binaries/
+- Apache Jena Fuseki
+- Apache Jena libraries
 
 2. Unpack the distribution files to <**JENA_HOME_DIR**>, <**FUSEKI_HOME_DIR**>
 
