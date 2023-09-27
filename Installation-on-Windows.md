@@ -1,14 +1,12 @@
 > Command prompt = **CMD**
 
-## Install Java 8
+## Apache Jena/Fuseki installation
 
-* Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
+Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
 
 * Test the installation - open **CMD** and run:
 
         java -version
-
-## Install Apache Jena/Fuseki
 
 1. Download Jena and Fuseki binary files https://jena.apache.org/download/index.cgi
 
@@ -63,7 +61,9 @@ fuseki-server --version
 
 8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
 
-## Install SQLite database engine
+## MTW Installation
+
+### MTW uses SQLite database 
 
 1. Download SQLite3 binary files at https://www.sqlite.org/download.html
 
@@ -89,15 +89,50 @@ fuseki-server --version
 
         sqlite3 --version
 
-## Install MTW as Windows service
+### Install MTW
 
 1. Download distribution file **MTW-X.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
 
 2. Unpack dist file to <**MTW_HOME_DIR**>
 
-3. Install the **services** - MTW-Server and MTW-Worker
+3. Create/Set environmental (ENV) variable
 
-    Install [NSSM](https://nssm.cc) service manager
+    MTW_HOME  <MTW_HOME_DIR>
+
+    Open **CMD** and run:
+
+        setx /M MTW_HOME C:\Programs\...\dist  
+
+    Append to your PATH variable:
+
+        ;%MTW_HOME%\tools
+
+4. Set Admin credentials using **set-mtw-admin.exe** - open **CMD** and run:
+
+        set-mtw-admin --login <YOUR_ADMIN_LOGIN> --pwd <YOUR_ADMIN_PASSWORD>
+
+5. Create the **management database**
+    
+    Go to  <**MTW_HOME_DIR**>\instance\db
+    
+    Open **CMD** and run:
+
+        sqlite3 mtw.db < mtw_schema.sql
+
+6. Customize the **config file** - important values are marked with **!**
+     
+    <**MTW_HOME_DIR**>\instance\conf\mtw-dist.ini
+
+    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
+
+7. 
+
+
+## Run MTW as Windows service
+
+Install the **services** - MTW-Server and MTW-Worker
+
+1. Install [NSSM](https://nssm.cc) service manager
     
     Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
 
@@ -121,40 +156,8 @@ fuseki-server --version
             --threads THREADS  Number of threads - default: 64
             --debug            Run in debug mode - DO NOT use in production !
 
-4. Set Admin credentials using **set-mtw-admin.exe** - open **CMD** and run:
-
-        set-mtw-admin --login <YOUR_ADMIN_LOGIN> --pwd <YOUR_ADMIN_PASSWORD>
-
-5. Create the **management database**
+2. Start the services using Windows Services manager
     
-    Go to  <**MTW_HOME_DIR**>\instance\db
-    
-    Open **CMD** and run:
-
-        sqlite3 mtw.db < mtw_schema.sql
-
-6. Customize the **config file** - important values are marked with **!**
-     
-    <**MTW_HOME_DIR**>\instance\conf\mtw-dist.ini
-
-    https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
-
-7. Create/Set environmental (ENV) variable
-
-    MTW_HOME  <MTW_HOME_DIR>
-
-    Open **CMD** and run:
-
-        setx /M MTW_HOME C:\Programs\...\dist  
-
-8. Add to your PATH variable
-
-        ;%MTW_HOME%\tools
-    
-9. Start the services using Windows Services manager
-    
-10. Check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
-
-11. **You need to setup a proxy** on you web server - see [Web-server-config](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
+3. Check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
 
 Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
