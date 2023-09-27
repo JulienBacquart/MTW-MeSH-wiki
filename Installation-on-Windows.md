@@ -148,17 +148,17 @@ Use the [NSSM](https://nssm.cc) service manager
     
 1. Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
 
-     nssm install <SERVICE_NAME>-<PORT>
+       nssm install <SERVICE_NAME>-<PORT>
         
 - Application - Path - select the EXE file ie.:
 
-      C:\Programs\...\dist\mtw-server.exe
+       C:\Programs\...\dist\mtw-server.exe
 
-      C:\Programs\...\dist\mtw-worker.exe 
+       C:\Programs\...\dist\mtw-worker.exe 
 
 - Application - Startup dir:
 
-      C:\Programs\...\dist   
+       C:\Programs\...\dist   
 
 - (optional) Application arguments - you can change host, port, threads count and config file:
 
