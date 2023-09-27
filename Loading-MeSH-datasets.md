@@ -18,7 +18,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/
 
-> You might use curl for downloading
+> You might use **curl** tool for downloading
 
     curl https://nlmpubs.nlm.nih.gov/projects/mesh/rdf/mesh.nt.gz --ssl-no-revoke -O
           
@@ -28,7 +28,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
 ### Convert the official UMLS TSV file ###
 
-Use the **trans_only_YYYY_extended.txt** and convert it with **mesh-trx2nt** script (in the **tools** dir)
+Use the **trans_only_YYYY_extended.txt** and convert it with the **mesh-trx2nt** script (in the **tools** dir)
 
 The file MUST have the following columns/items:
 
@@ -59,10 +59,9 @@ options:
 
 **IMPORTANT** - the **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
 
-Run the conversion - open CMD and run ie.:
+**Run the conversion** - open CMD and run ie.:
     
      mesh-trx2nt trans_only_2023_extended.txt fr http://id.mesh.fr/ 
-
 
 
 ### Convert the official MTMS XML file - OBSOLETE ###
@@ -92,7 +91,7 @@ Run the conversion - open CMD and run ie.:
 
 ## Import the RDF datasets ##
 
-0. **ALWAYS validate the input files**
+0. **ALWAYS validate the input files** - the official annual RDF dataset and your RDF translation dataset
 
     Run the validation:
         
@@ -102,7 +101,7 @@ Run the conversion - open CMD and run ie.:
 
     No output = data is OK
 
-1. Move the input files into a versioned <**IMPORT**> directory ie.  .../MeSH-data/2019-1/import/
+1. Move the input files into a versioned <**IMPORT**> directory ie.  .../MeSH-data/2023/import/
 
 2. Load the MeSH datatset(s) into Apache Jena
 
