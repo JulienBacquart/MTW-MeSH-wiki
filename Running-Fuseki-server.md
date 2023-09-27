@@ -11,9 +11,11 @@ Set up a service (https://jena.apache.org/documentation/fuseki2/fuseki-run.html)
         nssm.exe install ApacheJenaFuseki
 
 Set:
+```
     - Path:   java
     - Startup dir:   %FUSEKI_BASE%
     - Arguments:   -Xmx8192M -jar %FUSEKI_HOME%/fuseki-server.jar --localhost
+```
    
 * Check if the server is running:
     
