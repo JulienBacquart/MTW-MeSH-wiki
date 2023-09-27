@@ -1,6 +1,6 @@
 ## For testing and development
 
-    Go to your <**FUSEKI_DATA_DIR**> open CMD and run:
+Go to your <**FUSEKI_DATA_DIR**> open CMD and run:
     
         fuseki-server --localhost
 
