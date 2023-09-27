@@ -36,7 +36,32 @@ The MUST have the following columns/items:
 
 - the header row is optional
 - the TermUI column is always empty
-- the Relation and ParentCUI need to be present at rows with *Custom Concepts* TermType **PEP** only - the ConceptUI starts with **F...**
+- the Relation and ParentCUI need to be present at rows with *Custom Concepts* (ConceptUI starts with **F...**) and TermType **PEP** only
+
+Display help - open CMD and run:
+    
+     mesh-trx2nt -h
+
+```
+usage: mesh-trx2nt inputFile meshxPrefix [options]
+
+Extracting translation dataset from NLM UMLS text file [trans_only_2023_expanded.txt]
+
+positional arguments:
+  inputFile    NLM UMLS text file name (plain or gzipped)
+  langcode     Language code
+  meshxPrefix  MeSH Translation namespace prefix ie. http://my.mesh.com/id/
+
+options:
+  -h, --help   show this help message and exit
+  --out OUT    Output file name prefix
+```
+
+**IMPORTANT** - the **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
+
+Run the conversion - open CMD and run:
+    
+     mesh-trx2nt trans_only_YYYY_extended.txt fr http://id.mesh.fr/ 
 
 ### Convert the official MTMS XML file - OBSOLETE ###
 
@@ -54,7 +79,7 @@ The MUST have the following columns/items:
     
         mesh-xml2trx *.xml.gz <TARGET_NS>
 
-    **IMPORTANT:  TARGET_NS** - target namespace param - the custom URI prefix for you translation - **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
+    **IMPORTANT:  TARGET_NS** - target namespace parameter - the custom URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
 
     https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw.ini
 
