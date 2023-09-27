@@ -10,7 +10,7 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
         text:directory "c:/<FUSEKI_DATA_DIR>/indexes/mesh" ;
 
-* Copy mesh.ttl file to:
+* Copy the **mesh.ttl** file to:
 
     <**FUSEKI_DATA_DIR**>/configuration/
 
