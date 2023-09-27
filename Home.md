@@ -51,18 +51,18 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 # Getting started
 
-1. Install Java, Apache Jena&Fuseki, Sqlite3 - follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (On Linux - follow [README](https://github.com/filak/MTW-MeSH/blob/master/flask-app/README.md)) 
+1. Install Apache Jena & Fuseki - follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (On Linux - follow [README](https://github.com/filak/MTW-MeSH/blob/master/flask-app/README.md)) 
 
 2. [Load MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) into Apache Jena
 
 3. [Run Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
-4. Setup a web server with a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
-
-5. Start MTW services & Enjoy MTW at https://<HOST_LINK>/mtw
+4. Install MTW & Enjoy MTW at https://<HOST_LINK>/mtw
 
 # Deployment & Production
 
+* Install MTW services
+* Setup a web server with a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 * The MTW Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
 * Backups
