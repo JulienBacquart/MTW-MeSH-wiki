@@ -2,13 +2,13 @@
 
 Go to your <**FUSEKI_DATA_DIR**> open CMD and run:
     
-        fuseki-server --localhost
+    fuseki-server --localhost
 
 ## For production/deployment 
 
-Set up a service (https://jena.apache.org/documentation/fuseki2/fuseki-run.html) - ie. on Windows using [NSSM](https://nssm.cc/) - run:
+Windows service - **Use the [NSSM](https://nssm.cc) service manager**
 
-        nssm.exe install ApacheJenaFuseki
+    nssm.exe install ApacheJenaFuseki
 
 Set:
 ```
