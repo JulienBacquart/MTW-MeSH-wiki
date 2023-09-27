@@ -138,7 +138,7 @@ fuseki-server --version
 
 - check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
 
-- open in your browser https://127.0.0.1/mtw/ and login with your Admin credentials [check the *Admin login* checkbox]
+- open in your browser **http://127.0.0.1/mtw/** and login with your Admin credentials [check the *Admin login* checkbox]
 
 > For production deployment see [Running MTW as a service](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
 
