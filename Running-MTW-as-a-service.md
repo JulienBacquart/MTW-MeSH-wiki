@@ -1,4 +1,4 @@
-## Run MTW as Windows service
+## Windows service
 
 Install the MTW **services** - MTW-Server and MTW-Worker
 
