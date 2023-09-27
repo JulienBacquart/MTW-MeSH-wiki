@@ -1,6 +1,8 @@
 You need to install the MTW **services** - MTW-Server and MTW-Worker
 
-## Windows service - use the [NSSM](https://nssm.cc) service manager
+## Windows service
+
+**Use the [NSSM](https://nssm.cc) service manager**
     
 1. Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
 
