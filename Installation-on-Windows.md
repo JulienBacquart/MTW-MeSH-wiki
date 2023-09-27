@@ -2,7 +2,7 @@
 
 ## Apache Jena/Fuseki installation
 
-Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
+Apache Jena/Fuseki 3 requires Java 8 - use ie. https://adoptopenjdk.net/
 
 * Test the installation - open **CMD** and run:
 
@@ -10,8 +10,8 @@ Apache Jena/Fuseki 3 requires Java 8 - https://adoptopenjdk.net/
 
 1. Download Jena and Fuseki binary files https://jena.apache.org/download/index.cgi
 
-- Apache Jena Fuseki - ie. apache-jena-fuseki-4.9.0.zip
-- Apache Jena libraries - ie. apache-jena-4.9.0.zip
+    - Apache Jena Fuseki - ie. apache-jena-fuseki-4.9.0.zip
+    - Apache Jena libraries - ie. apache-jena-4.9.0.zip
 
 2. Unpack the distribution files to <**JENA_HOME_DIR**>, <**FUSEKI_HOME_DIR**>
 
@@ -125,12 +125,16 @@ fuseki-server --version
 
     https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
 
-7. 
+7. Test the installation - open **CMD** and run:
+
+        mtw-server.exe --port 80 --relax
+
+    Open in your browser:   https://127.0.0.1/mtw/
 
 
 ## Run MTW as Windows service
 
-Install the **services** - MTW-Server and MTW-Worker
+Install the MTW **services** - MTW-Server and MTW-Worker
 
 1. Install [NSSM](https://nssm.cc) service manager
     
@@ -156,8 +160,8 @@ Install the **services** - MTW-Server and MTW-Worker
             --threads THREADS  Number of threads - default: 64
             --debug            Run in debug mode - DO NOT use in production !
 
-2. Start the services using Windows Services manager
-    
+2. Start the services using *Windows Services manager*
+
 3. Check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
 
 Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
