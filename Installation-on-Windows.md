@@ -59,7 +59,8 @@ jena_version.bat
 fuseki-server --version
 ```
 
-8. For production see https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server
+8. For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
+
 
 ## MTW Installation
 
@@ -139,7 +140,7 @@ fuseki-server --version
 
 - open in your browser https://127.0.0.1/mtw/ and login with your Admin credentials [check the *Admin login* checkbox]
 
-
+8. For production see [Running MTW as a service](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
 
 
 Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
