@@ -1,4 +1,4 @@
-You need to install the MTW **services** - MTW-Server and MTW-Worker
+You need to install the **MTW services** - MTW-Server and MTW-Worker
 
 ## Windows service
 
