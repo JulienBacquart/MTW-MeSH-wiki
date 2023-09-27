@@ -61,7 +61,7 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 # Deployment & Production
 
-* Install MTW services
+* Install MTW services - see [Running MTW as a service](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
 * Setup a web server with a reverse proxy - see [web server config examples](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 * The MTW Compare/Diff feature requires server-side connection to https://id.nlm.nih.gov/mesh/sparql
 * [Annual MeSH updates](https://github.com/filak/MTW-MeSH/wiki/MeSH-Annual-Updates)
