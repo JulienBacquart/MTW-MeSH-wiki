@@ -1,10 +1,14 @@
 ## For testing and development
 
-Go to your <**FUSEKI_DATA_DIR**> open CMD and run:
+Run [standalone server](https://jena.apache.org/documentation/fuseki2/fuseki-webapp.html#fuseki-standalone-server)
+
+- Go to your <**FUSEKI_DATA_DIR**> open CMD and run: 
     
-    fuseki-server --localhost
+      fuseki-server --localhost
 
 ## For production/deployment 
+
+Run [Fuseki service](https://jena.apache.org/documentation/fuseki2/fuseki-webapp.html#fuseki-service)
 
 Windows service - **Use the [NSSM](https://nssm.cc) service manager**
 
