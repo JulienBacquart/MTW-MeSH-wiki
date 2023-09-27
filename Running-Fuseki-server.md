@@ -1,12 +1,12 @@
-* For testing and development
+## For testing and development
 
     Go to your <**FUSEKI_DATA_DIR**> open CMD and run:
     
         fuseki-server --localhost
 
-* For production/deployment set up a service (https://jena.apache.org/documentation/fuseki2/fuseki-run.html)
-   
-    ie. on Windows using [NSSM](https://nssm.cc/) - run:
+## For production/deployment 
+
+Set up a service (https://jena.apache.org/documentation/fuseki2/fuseki-run.html) - ie. on Windows using [NSSM](https://nssm.cc/) - run:
 
         nssm.exe install ApacheJenaFuseki
 
