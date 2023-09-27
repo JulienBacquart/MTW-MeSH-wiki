@@ -64,7 +64,7 @@ fuseki-server --version
 
 ## MTW Installation
 
-SQLite database 
+**SQLite database**
 
 1. Download SQLite3 binary files at https://www.sqlite.org/download.html
 
@@ -90,7 +90,7 @@ SQLite database
 
         sqlite3 --version
 
-### MTW binaries
+**MTW binaries**
 
 1. Download distribution file **MTW-X.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
 
