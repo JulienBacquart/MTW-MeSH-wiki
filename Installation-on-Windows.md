@@ -59,12 +59,12 @@ jena_version.bat
 fuseki-server --version
 ```
 
-8. For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
+> For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
 
 ## MTW Installation
 
-### MTW uses SQLite database 
+SQLite database 
 
 1. Download SQLite3 binary files at https://www.sqlite.org/download.html
 
@@ -90,7 +90,7 @@ fuseki-server --version
 
         sqlite3 --version
 
-### Install MTW
+### MTW binaries
 
 1. Download distribution file **MTW-X.X.X.zip** from [Releases](https://github.com/filak/MTW-MeSH/releases/latest)
 
@@ -140,7 +140,7 @@ fuseki-server --version
 
 - open in your browser https://127.0.0.1/mtw/ and login with your Admin credentials [check the *Admin login* checkbox]
 
-8. For production see [Running MTW as a service](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
+> For production deployment see [Running MTW as a service](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
 
 
 Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
