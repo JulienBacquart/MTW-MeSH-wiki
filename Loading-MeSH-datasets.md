@@ -28,9 +28,9 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
 ### Convert the official UMLS TSV file ###
 
-Use the **trans_only_YYYY_extended.txt**
+Use the **trans_only_YYYY_extended.txt** and convert it with **mesh-trx2nt** script (in the **tools** dir)
 
-The MUST have the following columns/items:
+The file MUST have the following columns/items:
 
     DescriptorUI | ConceptUI | Language | TermType | String | TermUI | ScopeNote | Tree | Created | Relation | ParentCUI	
 
@@ -59,9 +59,11 @@ options:
 
 **IMPORTANT** - the **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
 
-Run the conversion - open CMD and run:
+Run the conversion - open CMD and run ie.:
     
-     mesh-trx2nt trans_only_YYYY_extended.txt fr http://id.mesh.fr/ 
+     mesh-trx2nt trans_only_2023_extended.txt fr http://id.mesh.fr/ 
+
+
 
 ### Convert the official MTMS XML file - OBSOLETE ###
 
