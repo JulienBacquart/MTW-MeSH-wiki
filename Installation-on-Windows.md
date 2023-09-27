@@ -155,6 +155,6 @@ fuseki-server --version
     
 10. Check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
 
-11. **You need to setup a proxy** on you web server - see the [Deployment](https://github.com/filak/MTW-MeSH/wiki#deployment) instructions 
+11. **You need to setup a proxy** on you web server - see [Web-server-config](https://github.com/filak/MTW-MeSH/wiki/Web-server-config)
 
 Continue to [Loading MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets)
