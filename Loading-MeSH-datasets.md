@@ -26,6 +26,18 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
 > If you have not translated MeSH before - you can proceed to [Import](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#import-the-rdf-datasets).
 
+### Convert the official UMLS TSV file ###
+
+Use the **trans_only_YYYY_extended.txt**
+
+The MUST have the following columns/items:
+
+    DescriptorUI | ConceptUI | Language | TermType | String | TermUI | ScopeNote | Tree | Created | Relation | ParentCUI	
+
+- the header row is optional
+- the TermUI column is always empty
+- the Relation and ParentCUI need to be present at rows with *Custom Concepts* TermType **PEP** only - the ConceptUI starts with **F...**
+
 ### Convert the official MTMS XML file - OBSOLETE ###
 
 1. Download your ***.xml.gz** translation file at
@@ -49,12 +61,6 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
     ie.
     
         mesh-xml2trx czedesc2018.xml.gz http://mesh.medvik.cz/link/
-
-### Convert the official UMLS TSV file ###
-
-**trans_only_YYYY.txt**
-
-> #TBD
 
 
 ## Import the RDF datasets ##
