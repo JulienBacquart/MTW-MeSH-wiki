@@ -51,13 +51,13 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 # Getting started
 
-1. Install Apache Jena & Fuseki - follow [Installation on Windows](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows) (On Linux - follow [README](https://github.com/filak/MTW-MeSH/blob/master/flask-app/README.md)) 
+1. [Install Apache Jena & Fuseki](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows#apache-jenafuseki-installation)
 
 2. [Load MeSH datasets](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets) into Apache Jena
 
-3. [Run Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
+3. [Run Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server#for-testing-and-development)
 
-4. Install MTW & Enjoy MTW at https://<HOST_LINK>/mtw
+4. [Install and start MTW](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows#mtw-installation)
 
 # Deployment & Production
 
