@@ -61,7 +61,7 @@ options:
 
 The **langcode** parameter **MUST be the same** as the **TARGET_LANG** value in your **mtw.ini config file** ! 
 
-The **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as the TARGET_NS value in your **mtw.ini config file** ! 
+The **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as the **TARGET_NS** value in your **mtw.ini config file** ! 
 
 **Run the conversion** - open CMD and run ie.:
     
