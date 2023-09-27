@@ -28,7 +28,7 @@ Download the official MeSH RDF dataset **mesh.nt.gz** at https://nlmpubs.nlm.nih
 
 ### Convert the official UMLS TSV file ###
 
-Use the **trans_only_YYYY_extended.txt** and convert it with the **mesh-trx2nt** script (in the **tools** dir)
+Use the **trans_only_YYYY_extended.txt** and convert it with the **mesh-trx2nt** tool.
 
 The file MUST have the following columns/items:
 
@@ -66,7 +66,7 @@ options:
 
 ### Convert the official MTMS XML file - OBSOLETE ###
 
-1. Download your ***.xml.gz** translation file at
+Download your ***.xml.gz** translation file at
     
     [ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/](ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/)
     
@@ -74,9 +74,9 @@ options:
     
     [ftp://ftp.nlm.nih.gov/online/mesh/MESH_FILES/mtms/](ftp://ftp.nlm.nih.gov/online/mesh/MESH_FILES/mtms/)
 
-2. Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx** tool
+Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx** tool
   
-    Run the extraction script:
+- Run the extraction script:
     
         mesh-xml2trx *.xml.gz <TARGET_NS>
 
