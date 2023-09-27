@@ -38,7 +38,7 @@ The file MUST have the following columns/items:
 - the TermUI column is always empty
 - the Relation and ParentCUI need to be present at rows with *Custom Concepts* (ConceptUI starts with **F...**) and TermType **PEP** only
 
-Display help - open CMD and run:
+- Display help - open CMD and run:
     
      mesh-trx2nt -h
 
@@ -59,7 +59,7 @@ options:
 
 **IMPORTANT** - the **meshxPrefix** parameter is the URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
 
-**Run the conversion** - open CMD and run ie.:
+- Run the conversion - open CMD and run ie.:
     
      mesh-trx2nt trans_only_2023_extended.txt fr http://id.mesh.fr/ 
 
