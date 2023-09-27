@@ -59,7 +59,7 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 4. [Install and start MTW](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows#mtw-installation)
 
-# Deployment & Production
+# Deployment for production
 
 * Install [Fuseki service](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server#for-productiondeployment)
 * Install [MTW services](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
