@@ -125,20 +125,28 @@ fuseki-server --version
 
     https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
 
-7. Test the installation - open **CMD** and run:
+7. Test the installation
+
+- open **CMD** and run: 
+
+        mtw-worker.exe
+
+- open **CMD** and run:
 
         mtw-server.exe --port 80 --relax
 
-    Open in your browser:   https://127.0.0.1/mtw/
+- check the logs for any startup errors: <**MTW_HOME_DIR**>\instance\logs
+
+- open in your browser https://127.0.0.1/mtw/ and login with your Admin credentials [check the *Admin login* checkbox]
 
 
 ## Run MTW as Windows service
 
 Install the MTW **services** - MTW-Server and MTW-Worker
 
-1. Install [NSSM](https://nssm.cc) service manager
+Use the [NSSM](https://nssm.cc) service manager
     
-    Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
+1. Go to your <**MTW_HOME_DIR**> open **CMD** and run for both server and worker:
 
           nssm install <SERVICE_NAME>-<PORT>
         
