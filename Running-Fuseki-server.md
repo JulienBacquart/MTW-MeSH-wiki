@@ -17,7 +17,7 @@ Set:
     - Arguments:   -Xmx8192M -jar %FUSEKI_HOME%/fuseki-server.jar --localhost
 ```
    
-* Check if the server is running:
+## Check if the server is running
     
     http://localhost:3030
 
