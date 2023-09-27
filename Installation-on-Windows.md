@@ -126,7 +126,7 @@ fuseki-server --version
 
     https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mtw-dist.ini
 
-7. Test the installation
+7. Start MTW Worker and MTW Server 
 
 - open **CMD** and run: 
 
