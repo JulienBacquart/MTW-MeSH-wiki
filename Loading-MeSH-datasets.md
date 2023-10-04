@@ -115,11 +115,7 @@ Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx
     
     Run the import:
         
-        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz mesh-trx_YYYY-MM-DD.nt.gz ...
-    
-    ie:
-    
-        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz mesh-trx_2018-12-19.nt.gz
+        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh mesh.nt.gz mesh-trx_...
     
     or if you do not have a translation then just:
     
