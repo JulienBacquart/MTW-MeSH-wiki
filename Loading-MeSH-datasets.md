@@ -4,11 +4,17 @@ Jena assembler config file <**MTW_HOME_DIR**>/instance/conf/mesh.ttl **MUST BE**
 
 https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
-* Adjust the paths in **mesh.ttl** to your <**FUSEKI_DATA_DIR**>
+* Adjust the paths in **mesh.ttl** to your <**FUSEKI_DATA_DIR**> - use forward slashes
 
         tdb2:location  "c:/<FUSEKI_DATA_DIR>/databases/mesh" ;
 
         text:directory "c:/<FUSEKI_DATA_DIR>/indexes/mesh" ;
+
+* Validate **mesh.ttl**
+
+      riot --validate mesh.ttl
+
+    No output = file is OK
 
 * Copy the **mesh.ttl** file to:
 
