@@ -9,11 +9,11 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 4. **BACKUP** your <**mesh**> dataset using Fuseki interface
 
 5. Validate the backup and the official MeSH RDF dataset - run:
+
+    > No output = data is OK
     
         riot --validate mesh_YYYY-MM-DD_....nt.gz
         riot --validate mesh.nt.gz
-
-   No output = data is OK
 
 6. Extract the translation from the backup using **mesh-nt2trx** tool - run:
     
