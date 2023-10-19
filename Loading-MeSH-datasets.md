@@ -14,9 +14,9 @@ https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/conf/mesh.ttl
 
 * Validate **mesh.ttl**
 
-      riot --validate mesh.ttl
+> No output = file is OK
 
-    No output = file is OK
+      riot --validate mesh.ttl
 
 * Copy the **mesh.ttl** file to:
 
