@@ -86,8 +86,6 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 Please use the [Issues](https://github.com/filak/MTW-MeSH/issues).
 
-* Manual/FAQ \#TBD... 
-
 # License
 
 [MIT](https://github.com/filak/MTW-MeSH/blob/master/LICENSE) 
