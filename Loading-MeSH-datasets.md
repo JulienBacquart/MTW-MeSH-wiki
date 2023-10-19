@@ -106,12 +106,12 @@ Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx
 0. **ALWAYS validate the input files** - the official annual RDF dataset and your RDF translation dataset
 
     Run the validation:
+
+    > No output = data is OK
         
         riot --validate mesh.nt.gz
 
         riot --validate mesh-trx_YYYY-MM-DD.nt.gz
-
-    No output = data is OK
 
 1. Move the input files into a versioned <**IMPORT**> directory ie.  .../MeSH-data/2023/import/
 
