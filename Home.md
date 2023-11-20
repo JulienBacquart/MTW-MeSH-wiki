@@ -1,12 +1,12 @@
-# Welcome #
+# Welcome
 
 ***Medical Subject Headings*** (MeSH) is a controlled vocabulary (thesaurus) for biomedical fields produced by the *National Library of Medicine* ([NLM](https://www.nlm.nih.gov/mesh/), Bethesda, USA). 
 
 MTW stands for **Medical Subject Headings Translation Workflow**
 
-## MTW App
+# MTW app
 
-NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary - so a open source application for supporting the MeSH translation has been developed for the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW app has been used **in production in NML since January 2019**.
+NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary, so the open source application for supporting the MeSH translation has been developed for the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW app has been used **in production since January 2019**.
 
 ## Advantages of using RDF
 
@@ -59,7 +59,7 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 4. [Install and start MTW](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows#mtw-installation)
 
-# Production Deployment
+# Production deployment
 
 * Install [Fuseki service](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server#for-productiondeployment)
 * Install [MTW services](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
