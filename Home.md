@@ -4,7 +4,7 @@
 
 MTW stands for **Medical Subject Headings Translation Workflow**
 
-## Why the MTW application ?
+## MTW App
 
 NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by the end of 2018 leaving the translating organizations virtually empty-handed. Fortunately NLM provides a [linked data](https://id.nlm.nih.gov/mesh/) representation of the MeSH vocabulary - so a open source application for supporting the MeSH translation has been developed for the ***National Medical Library*** (**[NML](https://nlk.cz)**, Prague, Czech Republic). The MTW app has been used **in production in NML since January 2019**.
 
@@ -59,7 +59,7 @@ Development of MTW has been possible thanks to many open source projects, notabl
 
 4. [Install and start MTW](https://github.com/filak/MTW-MeSH/wiki/Installation-on-Windows#mtw-installation)
 
-# Deployment for production
+# Production Deployment
 
 * Install [Fuseki service](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server#for-productiondeployment)
 * Install [MTW services](https://github.com/filak/MTW-MeSH/wiki/Running-MTW-as-a-service)
@@ -72,9 +72,9 @@ Development of MTW has been possible thanks to many open source projects, notabl
     - backup <MTW_HOME_DIR> directory as zip or tar file
     - **backup regularly and store the backup files safely**
     - [loading dataset from backup](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) 
-* MTW Upgrades
+* MTW App Upgrades
     - download the newest [release](https://github.com/filak/MTW-MeSH/releases/latest) MTW-X.Y.Z
-    - check the release notes on breaking changes (if any)
+    - check the [releases](https://github.com/filak/MTW-MeSH/releases) for any breaking changes
     - stop the MTW services 
     - **backup <MTW_HOME_DIR> directory** 
     - rewrite binaries and static, templates, tools dirs in <MTW_HOME_DIR> 
