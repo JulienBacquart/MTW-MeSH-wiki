@@ -23,7 +23,6 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 * no special hardware - app running even on a PC/laptop
 * cross-platform (though developed on Windows)
 * easy datasets management - updates, backups, migrations
-* basic approval process/workflow
 * clean and intuitive interface - see some [screenshots](https://github.com/filak/MTW-MeSH/wiki/ScreenShots)
 
 ## Features
@@ -34,6 +33,7 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 * compare & diff descriptor versions
 * custom concepts support
 * complete audit & changes approval
+* approval process/workflow
 * reporting & user management
 * user roles based workflow: viewer, contributor, editor, manager
 * duplicate terms checking & other data consistency checks
