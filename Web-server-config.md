@@ -47,7 +47,7 @@ mtw.example.com:443 {
     log logs/mtw-access.txt
     errors logs/mtw-error.txt
     tls self_signed
-    gzip
+
     proxy /mtw localhost:55930 {
         transparent
         keepalive 0
