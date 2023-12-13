@@ -23,6 +23,9 @@
     Require all granted
   </Directory>
 
+  RewriteEngine on
+  RewriteRule ^/mtw/assets-mtw/(.*) /assets-mtw/$1
+
   <Location "/mtw">
     ProxyPass "http://localhost:55930/mtw"
     ProxyPassReverse "http://localhost:55930/mtw"
@@ -43,10 +46,7 @@ mtw.example.com:443 {
     root home/htdocs
     log / logs/mtw-access.txt "{remote} - {user} [{when}] \"{method} {uri} {proto}\" {status} {size}"
     errors logs/mtw-error.txt
-    ## development only:
     tls self_signed
-    ## production ie.:
-    # tls certs/crt.txt certs/key.txt
     gzip
     proxy /mtw localhost:55930 {
         transparent
