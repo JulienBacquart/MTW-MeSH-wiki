@@ -41,7 +41,7 @@ NLM has deprecated its legacy *MeSH Translation Maintenance System* (MTMS) by th
 
 ## Stack
 
-Development of MTW has been possible thanks to many open source projects, notably:
+Development of MTW has been possible thanks to other open source projects, notably:
 
 * SPARQL server: Apache Jena Fuseki
 * Web framework - Python: Flask & Jinja2 templates
