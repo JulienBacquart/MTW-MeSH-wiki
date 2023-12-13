@@ -70,7 +70,6 @@ Development of MTW has been possible thanks to other open source projects, notab
     - for Jena data use Fuseki GUI or [command](https://jena.apache.org/documentation/fuseki2/fuseki-server-protocol.html)
     - for SQLite db use [mtw_backup-vacuum.bat](https://github.com/filak/MTW-MeSH/blob/master/flask-app/instance/db/mtw_backup-vacuum.bat)
     - backup <MTW_HOME_DIR> directory as zip or tar file
-    - **backup regularly and store the backup files safely**
     - [loading dataset from backup](https://github.com/filak/MTW-MeSH/wiki/Loading-MeSH-datasets#loading-data-from-a-backup) 
 * MTW App Upgrades
     - download the newest [release](https://github.com/filak/MTW-MeSH/releases/latest) MTW-X.Y.Z
