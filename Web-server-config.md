@@ -44,7 +44,7 @@ https://github.com/caddyserver/caddy/releases/tag/v1.0.4
 ```
 mtw.example.com:443 {
     root home/htdocs
-    log / logs/mtw-access.txt "{remote} - {user} [{when}] \"{method} {uri} {proto}\" {status} {size}"
+    log logs/mtw-access.txt
     errors logs/mtw-error.txt
     tls self_signed
     gzip
