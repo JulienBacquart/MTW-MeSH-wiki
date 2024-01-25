@@ -78,19 +78,15 @@ The **meshxPrefix** parameter **MUST be the same** as the **TARGET_NS** value in
 
 ### Convert the official MTMS XML file - OBSOLETE ###
 
-Download your ***.xml.gz** translation file at
+Download your ***.xml** translation file at
     
-    [ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/](ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/mtms/)
-    
-    or
-    
-    [ftp://ftp.nlm.nih.gov/online/mesh/MESH_FILES/mtms/](ftp://ftp.nlm.nih.gov/online/mesh/MESH_FILES/mtms/)
+https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/.mtms/
 
 Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx** tool
   
 - Run the extraction script:
     
-        mesh-xml2trx *.xml.gz <TARGET_NS>
+        mesh-xml2trx *.xml <TARGET_NS>
 
     **IMPORTANT:  TARGET_NS** - target namespace parameter - the custom URI prefix for you translation - it **MUST be the same** as TARGET_NS used in your **mtw.ini config file** ! 
 
