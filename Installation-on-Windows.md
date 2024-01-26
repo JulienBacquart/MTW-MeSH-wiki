@@ -59,6 +59,10 @@ jena_version.bat
 fuseki-server --version
 ```
 
+The output shall be:
+
+     Apache Jena Fuseki version 4.10.0
+
 > For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
 
