@@ -61,7 +61,7 @@ fuseki-server --version
 
 The output shall be:
 
-     Apache Jena Fuseki version 4.10.0
+     Apache Jena Fuseki version ...
 
 > For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
