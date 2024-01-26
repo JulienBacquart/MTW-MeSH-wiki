@@ -2,7 +2,7 @@
 
 ## Apache Jena/Fuseki installation
 
-Apache Jena/Fuseki 3 requires Java 8 - use ie. https://adoptopenjdk.net/
+Apache Jena/Fuseki 4 requires Java 11 JRE - use ie. https://adoptopenjdk.net/
 
 * Test the installation - open **CMD** and run:
 
