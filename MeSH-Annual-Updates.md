@@ -4,7 +4,7 @@ Check MeSH RDF release notes: https://hhs.github.io/meshrdf/release-notes
 
 2. **ALWAYS** perform the checks and resolve any issues in MTW - ie. duplicates, locks, pending changes etc.
 
-3. **Export required output files from MTW** - ie. UMLS TSV, MARC, stats etc.
+3. **Export required output files from MTW** - ie. **UMLS TSV**, MARC file, stats etc.
 
 4. **BACKUP** your <**mesh**> dataset using Fuseki interface
 
