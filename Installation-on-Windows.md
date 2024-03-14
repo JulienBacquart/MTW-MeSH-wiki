@@ -47,21 +47,17 @@ setx /M FUSEKI_BASE "D:\apache-jena-data"
         
         java -Xmx8192M -jar "%FUSEKI_HOME%\fuseki-server.jar" %*
 
-7. Test the installation
-
-    Go to your <**FUSEKI_DATA_DIR**>
-
-    - open **CMD** and run:
+7. Test the installation - open **CMD** and run:
  
-```
-jena_version.bat
 
-fuseki-server --version
-```
+        jena_version.bat
 
-The output shall be:
+        fuseki-server --version
 
-     Apache Jena Fuseki version ...
+
+    The output shall be:
+
+         Apache Jena Fuseki version ...
 
 > For production see [Running Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server)
 
