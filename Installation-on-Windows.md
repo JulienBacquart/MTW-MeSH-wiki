@@ -27,10 +27,10 @@ Apache Jena/Fuseki 4 requires Java 11 JRE - use ie. https://adoptopenjdk.net/
     - open **CMD** and run:
  
 ```
-setx /M JENAROOT c:\Programs\apache-jena-4.9.0
-setx /M JENA_HOME c:\Programs\apache-jena-4.9.0
-setx /M FUSEKI_HOME c:\Programs\apache-jena-fuseki-4.9.0
-setx /M FUSEKI_BASE d:\apache-jena-data
+setx /M JENAROOT "C:\Programs\apache-jena-4.9.0"
+setx /M JENA_HOME "C:\Programs\apache-jena-4.9.0"
+setx /M FUSEKI_HOME "C:\Programs\apache-jena-fuseki-4.9.0"
+setx /M FUSEKI_BASE "D:\apache-jena-data"
  ```
 
 5. Add to your **PATH** variable
@@ -45,7 +45,7 @@ setx /M FUSEKI_BASE d:\apache-jena-data
         
     to (use 4096 MB or more):
         
-        java -Xmx8192M -jar %FUSEKI_HOME%\fuseki-server.jar %*
+        java -Xmx8192M -jar "%FUSEKI_HOME%\fuseki-server.jar" %*
 
 7. Test the installation
 
@@ -84,7 +84,7 @@ The output shall be:
 
     Open **CMD** and run:
 
-        setx /M SQLITE_HOME C:\Programs\sqlite3      
+        setx /M SQLITE_HOME "C:\Programs\sqlite3"     
 
 4. Add to your PATH variable
 
@@ -106,7 +106,7 @@ The output shall be:
 
     Open **CMD** and run:
 
-        setx /M MTW_HOME C:\Programs\...\dist  
+        setx /M MTW_HOME "C:\Programs\...\dist"  
 
     Append to your PATH variable:
 
