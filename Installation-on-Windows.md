@@ -102,7 +102,7 @@ setx /M FUSEKI_BASE "D:\apache-jena-data"
 
     Open **CMD** and run:
 
-        setx /M MTW_HOME "C:\Programs\...\dist"  
+        setx /M MTW_HOME "C:\Programs\MTW-1.6.5"  
 
     Append to your PATH variable:
 
