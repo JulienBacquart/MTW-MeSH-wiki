@@ -127,11 +127,13 @@ Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx
 
 3. Create Fuseki search index
    
-    Go to your <**FUSEKI_DATA_DIR**>
+    Go to your <**FUSEKI_DATA_DIR**> :
+
+        cd %FUSEKI_BASE%
    
     Run the indexation:
     
-        java -cp %FUSEKI_HOME%/fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
+        java -cp "%FUSEKI_HOME%/fuseki-server.jar" jena.textindexer --desc=configuration/mesh.ttl
     
 4. [Start Fuseki server](https://github.com/filak/MTW-MeSH/wiki/Running-Fuseki-server) instance
 
@@ -144,13 +146,15 @@ Extract translation data from MeSH XML as N-triples dataset using **mesh-xml2trx
 3. Go to your <**FUSEKI_DATA_DIR**> 
 and make sure the <**mesh**> directories under datatabases and indexes dirs are empty !
 
+        cd %FUSEKI_BASE%
+
     Run the import: 
 
-        tdb2_tdbloader --loc %FUSEKI_BASE%/databases/mesh %FUSEKI_BASE%/backups/mesh_YYYY-MM-DD_....nq.gz
+        tdb2_tdbloader --loc "%FUSEKI_BASE%/databases/mesh" "%FUSEKI_BASE%/backups/mesh_YYYY-MM-DD_....nq.gz"
 
     Create the search index - run:
 
-        java -cp %FUSEKI_HOME%/fuseki-server.jar jena.textindexer --desc=configuration/mesh.ttl
+        java -cp "%FUSEKI_HOME%/fuseki-server.jar" jena.textindexer --desc=configuration/mesh.ttl
 
 4. Start your Fuseki instance
 
