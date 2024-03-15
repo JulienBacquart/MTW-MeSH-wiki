@@ -114,7 +114,9 @@ setx /M FUSEKI_BASE "D:\apache-jena-data"
 
 5. Create the **management database**
     
-    Go to  <**MTW_HOME_DIR**>\instance\db
+    Go to  <**MTW_HOME_DIR**>\instance\db :
+
+        cd %MTW_HOME%\instance\db
     
     Open **CMD** and run:
 
