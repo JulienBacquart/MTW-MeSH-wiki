@@ -106,7 +106,7 @@ setx /M FUSEKI_BASE "D:\apache-jena-data"
 
     Append to your PATH variable:
 
-        ;%MTW_HOME%\tools
+        ;%MTW_HOME%\tools;%MTW_HOME%
 
 4. Set Admin credentials using **set-mtw-admin.exe** - open **CMD** and run:
 
